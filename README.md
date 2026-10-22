@@ -36,11 +36,11 @@ Publicado e hospedado gratuitamente na **Vercel** através da integração com o
   - Apoio no Pré-Parto: Elaboração conjunta do Plano de Parto, mobilidade pélvica e métodos naturais de alívio da dor.
   - Apoio no Parto: Presença contínua e respaldada por lei nos hospitais/maternidades, massagens nas contrações e proteção emocional.
   - Pós-Parto: Golden Hour, apoio à amamentação e escuta acolhedora à puérpera.
-- **3. Acompanhante Hospitalar Humanizada:**
-  - Idosos: Vigilância contra quedas e desorientação, carinho, auxílio na alimentação e ponte com a equipe médica.
-  - Crianças & Adolescentes: Presença lúdica e afetuosa para diminuir o medo do ambiente hospitalar enquanto os pais descansam ou trabalham.
-  - Adultos & Pós-Cirúrgico: Suporte durante internações, cirurgias e exames com sedação, aliviando a vulnerabilidade.
-  - Alívio para as Famílias: Boletins carinhosos e segurança de que o familiar está em mãos dedicadas e capacitadas.
+- **3. Acompanhante em Saúde (Consultas, Exames & Hospital):**
+  - **Consultas Médicas:** Ida junto ao consultório, anotação cuidadosa de condutas e prescrições do médico e envio de relatório para a família.
+  - **Exames & Procedimentos com Sedação:** Suporte em exames com acompanhante obrigatório (endoscopia, colonoscopia, ressonâncias, biópsias).
+  - **Internações Hospitalares:** Plantões diurnos e noturnos no leito hospitalar para idosos, adultos e crianças com vigilância atenta e auxílio em alimentação/locomoção.
+  - **Alívio para as Famílias:** Tranquilidade e suporte para quem trabalha ou não possui rede de apoio local.
 
 ---
 
