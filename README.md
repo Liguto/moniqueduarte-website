@@ -25,7 +25,7 @@ Publicado e hospedado gratuitamente na **Vercel** através da integração com o
 ## 🌸 Os 3 Serviços no Site
 
 - **1. Massoterapia (@monique.massoterapia):**
-  - **Locais em Campinas:** Casa Gê (Rua Hilário Magro Jr, 113 – Bosque, próx. Bosque dos Jequitibás) e Espaço Menezes (Jardim Guanabara)
+  - **Locais em Campinas:** [Casa Gê](https://casagecampinas.com.br/) (Rua Hilário Magro Jr, 113 – Bosque) e [Espaço Menezes](https://www.espacomenezes.com.br/) (Jardim Guanabara)
   - **Duração:** Sessões individuais de 60 minutos
   - **1ª Sessão Especial:** R$ 99 (condição de experimentação para novas clientes)
   - **Sessão Avulsa Normal:** R$ 150
