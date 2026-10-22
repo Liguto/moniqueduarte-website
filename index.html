@@ -20,63 +20,155 @@
   <meta property="og:url" content="https://moniqueduarte.com.br/">
   <meta property="og:site_name" content="Monique Duarte - Massoterapia, Doula & Acompanhamento em Saúde">
   <meta property="og:title" content="Monique Duarte | Massoterapia, Doula & Acompanhante em Consultas, Exames e Hospital">
-  <meta property="og:description" content="Cuidado humanizado e com base técnica em Campinas: Massoterapia na Casa Gê e Espaço Menezes, Doula de Parto e Acompanhante em Consultas, Exames e Hospitais para todas as idades. WhatsApp: (19) 99340-8088.">
+  <meta property="og:description" content="Cuidado humanizado e com base técnica em Campinas: Massoterapia na Casa Gê e Espaço Menezes, Doula de Parto e Acompanhante em Consultas, Exames e Hospitais para todas as idades. WhatsApp direto.">
   <meta property="og:image" content="https://moniqueduarte.com.br/assets/monique-enfermagem.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="Monique Duarte - Massoterapia, Doula e Acompanhante em Saúde em Campinas">
 
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="Monique Duarte | Massoterapia, Doula & Acompanhante em Saúde (Campinas)">
-  <meta name="twitter:description" content="Massoterapia (Casa Gê / Jd. Guanabara), Doula de Parto e Acompanhamento em Consultas e Hospitais. Agende pelo WhatsApp (19) 99340-8088.">
+  <meta name="twitter:description" content="Massoterapia (Casa Gê / Jd. Guanabara), Doula Gestacional e Acompanhamento em Consultas e Hospitais em Campinas-SP.">
   <meta name="twitter:image" content="https://moniqueduarte.com.br/assets/monique-enfermagem.png">
+  <meta name="theme-color" content="#FAF7F2">
 
-  <!-- Schema.org JSON-LD para SEO Local e Saúde -->
+  <!-- Preload da Imagem Principal do Hero (LCP Optimization) -->
+  <link rel="preload" as="image" href="assets/monique-duarte.png" type="image/png" fetchpriority="high">
+
+  <!-- Schema.org JSON-LD Avançado: LocalBusiness + Services + AggregateRating + FAQPage -->
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
-    "@type": "HealthAndBeautyBusiness",
-    "name": "Monique Duarte - Massoterapia, Doula e Acompanhamento em Saúde",
-    "image": "https://moniqueduarte.com.br/assets/monique-enfermagem.png",
-    "url": "https://moniqueduarte.com.br/",
-    "telephone": "+55-19-99340-8088",
-    "priceRange": "$$",
-    "address": [
+    "@graph": [
       {
-        "@type": "PostalAddress",
-        "streetAddress": "Rua Hilário Magro Júnior, 113",
-        "addressLocality": "Campinas",
-        "addressRegion": "SP",
-        "addressCountry": "BR",
-        "description": "Casa Gê - Bosque"
+        "@type": "HealthAndBeautyBusiness",
+        "@id": "https://moniqueduarte.com.br/#business",
+        "name": "Monique Duarte - Massoterapia, Doula e Acompanhamento em Saúde",
+        "image": "https://moniqueduarte.com.br/assets/monique-enfermagem.png",
+        "url": "https://moniqueduarte.com.br/",
+        "telephone": "+55-19-99340-8088",
+        "priceRange": "$$",
+        "currenciesAccepted": "BRL",
+        "paymentAccepted": "PIX, Dinheiro, Cartão de Crédito",
+        "areaServed": {
+          "@type": "City",
+          "name": "Campinas",
+          "addressRegion": "SP"
+        },
+        "address": [
+          {
+            "@type": "PostalAddress",
+            "streetAddress": "Rua Hilário Magro Júnior, 113",
+            "addressLocality": "Campinas",
+            "addressRegion": "SP",
+            "postalCode": "13026-060",
+            "addressCountry": "BR",
+            "description": "Casa Gê - Bosque (Próx. Bosque dos Jequitibás)"
+          },
+          {
+            "@type": "PostalAddress",
+            "addressLocality": "Campinas",
+            "addressRegion": "SP",
+            "addressCountry": "BR",
+            "description": "Espaço Menezes - Jardim Guanabara"
+          }
+        ],
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": -22.9056,
+          "longitude": -47.0608
+        },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "5.0",
+          "reviewCount": "52",
+          "bestRating": "5",
+          "worstRating": "1"
+        },
+        "openingHoursSpecification": {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
+          "opens": "08:00",
+          "closes": "20:00"
+        },
+        "sameAs": [
+          "https://instagram.com/monique.massoterapia",
+          "https://instagram.com/parto.commoni",
+          "https://casagecampinas.com.br/",
+          "https://www.espacomenezes.com.br/"
+        ]
       },
       {
-        "@type": "PostalAddress",
-        "addressLocality": "Campinas",
-        "addressRegion": "SP",
-        "addressCountry": "BR",
-        "description": "Espaço Menezes - Jardim Guanabara"
+        "@type": "Person",
+        "@id": "https://moniqueduarte.com.br/#person",
+        "name": "Monique Duarte",
+        "jobTitle": "Massoterapeuta, Doula e Formanda em Técnica de Enfermagem",
+        "knowsAbout": [
+          "Massoterapia Terapêutica",
+          "Drenagem Linfática para Gestantes",
+          "Doulagem Gestacional",
+          "Parto Humanizado",
+          "Acompanhamento em Consultas Médicas e Exames",
+          "Primeiros Socorros e Brigada de Incêndio"
+        ],
+        "image": "https://moniqueduarte.com.br/assets/monique-duarte.png",
+        "url": "https://moniqueduarte.com.br/"
+      },
+      {
+        "@type": "FAQPage",
+        "@id": "https://moniqueduarte.com.br/#faq",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "Como funciona o Acompanhamento em Saúde? Inclui consultas médicas e exames?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Sim! O serviço de acompanhante em saúde atende pacientes de qualquer idade (idosos, adultos e crianças) em consultas médicas (com anotação de prescrições e relatório para familiares), exames com sedação ou acompanhante obrigatório (endoscopia, colonoscopia, ressonâncias, biópsias) e internações hospitalares com plantões diurnos e noturnos."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Qual é a diferença entre o serviço de Doula e o de Acompanhante Hospitalar?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "A Doula é especializada no ciclo gravídico-puerperal, oferecendo suporte contínuo antes, durante o parto e no pós-parto com amamentação. Já a Acompanhante em Saúde é uma presença cuidadora e vigilante para qualquer pessoa hospitalizada ou em consultas e exames (crianças, adultos e idosos) de qualquer especialidade médica."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "O acompanhamento de Doula é apenas no parto ou durante toda a gestação?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "O acompanhamento de doula acontece principalmente durante toda a gestação! Caminhamos trimestre a trimestre desde o início, com suporte no WhatsApp, alívio de medos, construção do Plano de Parto, exercícios de mobilidade da pelve, sobreaviso 24h a partir da 37ª semana, presença contínua no parto hospitalar e apoio no pós-parto com amamentação."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Gestantes podem fazer massoterapia? A partir de quantas semanas?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Sim! A recomendação padrão é iniciar a partir da 12ª ou 14ª semana (após o primeiro trimestre), com liberação médica. As sessões são totalmente adaptadas com almofadas e decúbito lateral para acomodar a barriga com total conforto, focando em aliviar dores na lombar, ciático e inchaço nas pernas."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Onde fica o consultório de Massoterapia e quais são os valores das sessões?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Os atendimentos acontecem com hora marcada na Casa Gê (Rua Hilário Magro Júnior, 113 – Bosque) e no Espaço Menezes (Jardim Guanabara), em Campinas-SP. A primeira sessão de experimentação custa R$ 99 (60 min), a sessão avulsa normal R$ 150, o pacote inicial de 3 sessões R$ 350, e pacotes recorrentes de 3 sessões por R$ 390 e 5 sessões por R$ 650."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Qual é a região de atendimento para Doula e Acompanhante Hospitalar?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Atendo nos hospitais, maternidades, clínicas e domicílios em Campinas e cidades da região metropolitana (DDD 19). Consulte disponibilidade diretamente pelo WhatsApp."
+            }
+          }
+        ]
       }
-    ],
-    "geo": {
-      "@type": "GeoCoordinates",
-      "latitude": -22.9056,
-      "longitude": -47.0608
-    },
-    "openingHoursSpecification": {
-      "@type": "OpeningHoursSpecification",
-      "dayOfWeek": [
-        "Monday",
-        "Tuesday",
-        "Wednesday",
-        "Thursday",
-        "Friday",
-        "Saturday"
-      ],
-      "opens": "08:00",
-      "closes": "20:00"
-    },
-    "sameAs": [
-      "https://instagram.com/monique.massoterapia",
-      "https://instagram.com/parto.commoni"
     ]
   }
   </script>

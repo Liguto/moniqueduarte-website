@@ -1,0 +1,6 @@
+# Robots.txt - Monique Duarte (Saúde, Massoterapia & Doula)
+User-agent: *
+Allow: /
+
+Sitemap: https://moniqueduarte.com.br/sitemap.xml
+Sitemap: https://moniqueduarte-website.vercel.app/sitemap.xml
