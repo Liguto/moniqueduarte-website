@@ -1,0 +1,1256 @@
+<!DOCTYPE html>
+<html lang="pt-BR" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Monique | Massoterapia & Doulagem Hospitalar Humanizada</title>
+  <meta name="description" content="Cuidado integrativo feminino com Monique: Massoterapia terapêutica, relaxante e para gestantes, além de acompanhamento contínuo e humanizado como Doula no pré-parto, parto hospitalar e pós-parto.">
+  <meta name="keywords" content="doula, massoterapia, massagem gestante, parto humanizado, acompanhante hospitalar, drenagem linfática, alívio de dores, bem-estar feminino">
+  
+  <!-- Favicon com SVG inline gracioso -->
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220%22%20width=%22100%22%20height=%22100%22><text y=%22.9em%22 font-size=%2290%22>🌿</text></svg>">
+
+  <!-- Google Fonts: Cormorant Garamond (Elegância e Acolhimento) e Plus Jakarta Sans (Clareza e Modernidade) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- Tailwind CSS via CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- Lucide Icons via CDN -->
+  <script src="https://unpkg.com/lucide@latest"></script>
+
+  <!-- Tailwind Config Customizada com a Paleta Acolhedora -->
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            brand: {
+              cream: '#FAF7F2',
+              sand: '#F3ECE4',
+              nude: '#EADFD5',
+              terracotta: '#C47B62',
+              terracottaDark: '#AB6149',
+              roseSoft: '#DFB8AA',
+              roseTint: '#F9EFEA',
+              olive: '#7C8A6C',
+              oliveDark: '#5E6D4E',
+              oliveTint: '#EFF3EA',
+              charcoal: '#2E2B2A',
+              graphite: '#4A4644',
+              muted: '#7A736F'
+            }
+          },
+          fontFamily: {
+            serif: ['"Cormorant Garamond"', 'Georgia', 'serif'],
+            sans: ['"Plus Jakarta Sans"', 'sans-serif']
+          },
+          boxShadow: {
+            'soft': '0 10px 30px -10px rgba(124, 138, 108, 0.12)',
+            'warm': '0 12px 35px -8px rgba(196, 123, 98, 0.15)',
+            'float': '0 20px 40px -15px rgba(46, 43, 42, 0.12)'
+          }
+        }
+      }
+    }
+  </script>
+
+  <style>
+    /* Estilos e refinamentos adicionais */
+    ::selection {
+      background-color: #EADFD5;
+      color: #2E2B2A;
+    }
+
+    .hero-gradient {
+      background: radial-gradient(circle at 15% 20%, #FAF7F2 0%, #F5EDE4 50%, #ECE1D5 100%);
+    }
+
+    .glass-nav {
+      background: rgba(250, 247, 242, 0.88);
+      backdrop-filter: blur(12px);
+      -webkit-backdrop-filter: blur(12px);
+    }
+
+    /* Animação suave para o accordion */
+    .faq-answer {
+      transition: max-height 0.35s ease-out, opacity 0.3s ease-out;
+    }
+  </style>
+</head>
+
+<body class="bg-brand-cream text-brand-charcoal font-sans antialiased selection:bg-brand-roseSoft/40 selection:text-brand-charcoal">
+
+  <!-- ========================================================================= -->
+  <!-- BARRA DE AVISO SUPERIOR / CONTATOS RÁPIDOS                                -->
+  <!-- ========================================================================= -->
+  <div class="bg-brand-olive text-brand-cream text-xs sm:text-sm py-2 px-4 transition-colors">
+    <div class="max-w-6xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-2 text-center sm:text-left">
+      <div class="flex items-center gap-2 justify-center">
+        <i data-lucide="sparkles" class="w-3.5 h-3.5 text-brand-roseSoft"></i>
+        <span>Atendimento humanizado, escuta empática e suporte com base científica.</span>
+      </div>
+      <div class="flex items-center gap-4 text-xs font-medium">
+        <a href="https://instagram.com/monique.massoterapia" target="_blank" rel="noopener noreferrer" class="hover:text-brand-roseSoft transition-colors flex items-center gap-1">
+          <span>@monique.massoterapia</span>
+        </a>
+        <span class="text-brand-cream/40">•</span>
+        <a href="https://instagram.com/parto.commoni" target="_blank" rel="noopener noreferrer" class="hover:text-brand-roseSoft transition-colors flex items-center gap-1">
+          <span>@parto.commoni</span>
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- ========================================================================= -->
+  <!-- HEADER / NAVEGAÇÃO                                                        -->
+  <!-- ========================================================================= -->
+  <header class="sticky top-0 z-40 glass-nav border-b border-brand-nude/70 transition-all duration-300">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex items-center justify-between h-20">
+        
+        <!-- Logo / Assinatura -->
+        <a href="#inicio" class="group flex flex-col">
+          <span class="font-serif text-2xl sm:text-3xl font-semibold tracking-wide text-brand-charcoal group-hover:text-brand-terracotta transition-colors">
+            Monique
+          </span>
+          <span class="text-[11px] sm:text-xs uppercase tracking-widest text-brand-muted font-medium -mt-1">
+            Massoterapia & Doulagem
+          </span>
+        </a>
+
+        <!-- Links Desktop -->
+        <nav class="hidden md:flex items-center space-x-7 text-sm font-medium text-brand-graphite">
+          <a href="#sobre" class="hover:text-brand-terracotta transition-colors">Sobre</a>
+          <a href="#massoterapia" class="hover:text-brand-terracotta transition-colors">Massoterapia</a>
+          <a href="#doula" class="hover:text-brand-terracotta transition-colors">Doula & Parto</a>
+          <a href="#diferenciais" class="hover:text-brand-terracotta transition-colors">Diferenciais</a>
+          <a href="#depoimentos" class="hover:text-brand-terracotta transition-colors">Depoimentos</a>
+          <a href="#faq" class="hover:text-brand-terracotta transition-colors">Dúvidas</a>
+        </nav>
+
+        <!-- CTA Header -->
+        <div class="hidden md:flex items-center gap-3">
+          <a href="https://wa.me/55SEUNUMERO?text=Ol%C3%A1%2C%20Monique!%20Visitei%20seu%20site%20e%20gostaria%20de%20agendar%20uma%20consulta."
+             target="_blank"
+             rel="noopener noreferrer"
+             class="inline-flex items-center gap-2 bg-brand-terracotta hover:bg-brand-terracottaDark text-white text-sm font-semibold px-5 py-2.5 rounded-full shadow-soft hover:shadow-warm transition-all duration-200 transform hover:-translate-y-0.5">
+            <i data-lucide="calendar" class="w-4 h-4"></i>
+            <span>Agendar Consulta</span>
+          </a>
+        </div>
+
+        <!-- Botão Hambúrguer Mobile -->
+        <div class="flex md:hidden">
+          <button id="mobile-menu-btn" 
+                  type="button" 
+                  aria-label="Abrir Menu de Navegação" 
+                  aria-expanded="false" 
+                  class="p-2 rounded-lg text-brand-charcoal hover:bg-brand-sand transition-colors focus:outline-none">
+            <i data-lucide="menu" id="hamburger-icon" class="w-6 h-6"></i>
+            <i data-lucide="x" id="close-icon" class="w-6 h-6 hidden"></i>
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Menu Mobile Dropdown -->
+    <div id="mobile-menu" class="hidden md:hidden border-t border-brand-nude/70 bg-brand-cream/95 backdrop-blur-md px-4 pt-3 pb-6 transition-all duration-300">
+      <div class="flex flex-col space-y-3 font-medium text-brand-graphite">
+        <a href="#sobre" class="mobile-nav-link py-2 px-3 rounded-lg hover:bg-brand-sand transition-colors">Sobre a Monique</a>
+        <a href="#massoterapia" class="mobile-nav-link py-2 px-3 rounded-lg hover:bg-brand-sand transition-colors">Massoterapia (@monique.massoterapia)</a>
+        <a href="#doula" class="mobile-nav-link py-2 px-3 rounded-lg hover:bg-brand-sand transition-colors">Doula & Hospital (@parto.commoni)</a>
+        <a href="#diferenciais" class="mobile-nav-link py-2 px-3 rounded-lg hover:bg-brand-sand transition-colors">Por Que Escolher</a>
+        <a href="#depoimentos" class="mobile-nav-link py-2 px-3 rounded-lg hover:bg-brand-sand transition-colors">Depoimentos</a>
+        <a href="#faq" class="mobile-nav-link py-2 px-3 rounded-lg hover:bg-brand-sand transition-colors">Perguntas Frequentes</a>
+        <div class="pt-3 border-t border-brand-nude">
+          <a href="https://wa.me/55SEUNUMERO?text=Ol%C3%A1%2C%20Monique!%20Visitei%20seu%20site%20e%20gostaria%20de%20agendar%20uma%20consulta."
+             target="_blank"
+             rel="noopener noreferrer"
+             class="flex items-center justify-center gap-2 bg-brand-terracotta text-white font-medium py-3 rounded-xl shadow-soft">
+            <i data-lucide="message-circle" class="w-5 h-5"></i>
+            <span>Agendar pelo WhatsApp</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main id="inicio">
+    <!-- ========================================================================= -->
+    <!-- HERO SECTION                                                              -->
+    <!-- ========================================================================= -->
+    <section class="relative hero-gradient pt-12 pb-20 md:py-24 overflow-hidden border-b border-brand-nude/50">
+      <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+        <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+          
+          <!-- Texto Principal -->
+          <div class="lg:col-span-7 space-y-6 text-center lg:text-left">
+            
+            <div class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-brand-oliveTint border border-brand-olive/20 text-brand-oliveDark text-xs font-semibold tracking-wide">
+              <i data-lucide="heart" class="w-3.5 h-3.5 text-brand-terracotta"></i>
+              <span>Cuidado Integral • Presença Humana • Bem-Estar</span>
+            </div>
+
+            <h1 class="font-serif text-4xl sm:text-5xl lg:text-6xl font-medium tracking-tight text-brand-charcoal leading-[1.15]">
+              Toque que alivia,<br class="hidden sm:inline">
+              <span class="italic font-normal text-brand-terracotta">presença que acolhe</span> e transforma.
+            </h1>
+
+            <p class="text-base sm:text-lg text-brand-graphite font-normal max-w-2xl mx-auto lg:mx-0 leading-relaxed">
+              Aliando a sensibilidade da <strong>Massoterapia Terapêutica</strong> ao suporte contínuo da <strong>Doulagem e Acompanhamento Hospitalar</strong>. Um porto seguro para mulheres que buscam alívio do estresse físico, relaxamento e um parto seguro, respeitado e inesquecível.
+            </p>
+
+            <!-- Botões CTAs -->
+            <div class="flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-4 pt-2">
+              <a href="https://wa.me/55SEUNUMERO?text=Ol%C3%A1%2C%20Monique!%20Gostaria%20de%20conversar%20sobre%20seus%20atendimentos."
+                 target="_blank"
+                 rel="noopener noreferrer"
+                 class="w-full sm:w-auto inline-flex items-center justify-center gap-3 bg-brand-olive hover:bg-brand-oliveDark text-white font-semibold px-7 py-3.5 rounded-full shadow-soft hover:shadow-warm transition-all duration-300 transform hover:-translate-y-0.5">
+                <!-- SVG Ícone Oficial WhatsApp -->
+                <svg class="w-5 h-5 fill-current" viewBox="0 0 24 24">
+                  <path d="M17.472 14.382c-.301-.15-1.78-.878-2.056-.979-.276-.101-.476-.15-.677.15-.2.301-.777.979-.953 1.179-.175.2-.351.226-.652.075s-1.272-.469-2.423-1.496c-.896-.799-1.501-1.787-1.677-2.088-.175-.301-.019-.464.132-.614.136-.135.301-.351.451-.527.15-.175.2-.301.301-.501.101-.2.05-.376-.025-.526-.075-.15-.677-1.631-.928-2.233-.244-.585-.493-.506-.677-.515h-.577c-.2 0-.527.075-.802.376s-1.053 1.028-1.053 2.509 1.078 2.91 1.229 3.111c.15.201 2.121 3.239 5.138 4.542.718.311 1.278.497 1.716.636.721.229 1.377.197 1.896.119.579-.088 1.78-.727 2.031-1.43.251-.702.251-1.304.175-1.43-.075-.126-.275-.201-.576-.351zM12.04 2c-5.523 0-10 4.477-10 10 0 1.76.459 3.414 1.264 4.861L2 22l5.289-1.267C8.7 21.547 10.315 22 12.04 22c5.523 0 10-4.477 10-10s-4.477-10-10-10zm0 18.25c-1.558 0-3.008-.43-4.254-1.18l-.305-.185-3.14.752.766-3.061-.202-.321A8.204 8.204 0 013.79 12c0-4.548 3.702-8.25 8.25-8.25 4.548 0 8.25 3.702 8.25 8.25 0 4.548-3.702 8.25-8.25 8.25z"/>
+                </svg>
+                <span>Falar no WhatsApp</span>
+              </a>
+
+              <a href="#servicos" 
+                 class="w-full sm:w-auto inline-flex items-center justify-center gap-2 bg-white hover:bg-brand-sand text-brand-charcoal border border-brand-nude font-medium px-6 py-3.5 rounded-full transition-all duration-200 shadow-sm">
+                <span>Conhecer Serviços</span>
+                <i data-lucide="arrow-down" class="w-4 h-4 text-brand-terracotta"></i>
+              </a>
+            </div>
+
+            <!-- Trust Pills -->
+            <div class="pt-6 grid grid-cols-2 sm:grid-cols-3 gap-3 text-left">
+              <div class="flex items-center gap-2 text-xs font-medium text-brand-graphite">
+                <i data-lucide="check-circle-2" class="w-4 h-4 text-brand-olive shrink-0"></i>
+                <span>Atendimento Personalizado</span>
+              </div>
+              <div class="flex items-center gap-2 text-xs font-medium text-brand-graphite">
+                <i data-lucide="shield-check" class="w-4 h-4 text-brand-olive shrink-0"></i>
+                <span>Base em Evidências</span>
+              </div>
+              <div class="flex items-center gap-2 text-xs font-medium text-brand-graphite col-span-2 sm:col-span-1">
+                <i data-lucide="smile" class="w-4 h-4 text-brand-olive shrink-0"></i>
+                <span>Ambiente Seguro & Calmo</span>
+              </div>
+            </div>
+
+          </div>
+
+          <!-- Imagem / Destaque Visual Hero -->
+          <div class="lg:col-span-5 relative">
+            <div class="relative mx-auto max-w-md lg:max-w-none">
+              
+              <!-- Efeito de Fundo Decorativo -->
+              <div class="absolute -top-4 -left-4 w-72 h-72 bg-brand-roseSoft/30 rounded-full filter blur-2xl -z-10"></div>
+              <div class="absolute -bottom-6 -right-6 w-72 h-72 bg-brand-oliveTint/80 rounded-full filter blur-2xl -z-10"></div>
+
+              <!-- Card com Borda Orgânica -->
+              <div class="bg-white p-3 sm:p-4 rounded-3xl shadow-float border border-brand-nude/80">
+                <div class="relative rounded-2xl overflow-hidden aspect-[4/5] bg-brand-sand">
+                  <img src="https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?auto=format&fit=crop&w=800&q=80" 
+                       alt="Cuidado terapêutico, relaxamento e acolhimento com Monique" 
+                       class="w-full h-full object-cover object-center transform hover:scale-105 transition-transform duration-700">
+                  <div class="absolute inset-0 bg-gradient-to-t from-brand-charcoal/60 via-transparent to-transparent"></div>
+                  
+                  <div class="absolute bottom-4 left-4 right-4 text-white">
+                    <p class="font-serif text-lg font-medium italic">"Cuidar do corpo é cuidar da alma e da nova vida que chega."</p>
+                    <p class="text-xs text-brand-roseSoft mt-1 font-sans">— Monique Massoterapia & Doulagem</p>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Floating badge de destaque -->
+              <div class="absolute -bottom-5 -left-4 sm:left-4 bg-white/95 backdrop-blur-sm border border-brand-nude p-3.5 rounded-2xl shadow-warm flex items-center gap-3">
+                <div class="w-10 h-10 rounded-full bg-brand-roseTint flex items-center justify-center text-brand-terracotta">
+                  <i data-lucide="flower-2" class="w-5 h-5"></i>
+                </div>
+                <div>
+                  <p class="text-xs font-bold text-brand-charcoal">Duas vocações, um só propósito</p>
+                  <p class="text-[11px] text-brand-muted">Saúde, relaxamento e doulagem amorosa</p>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================================================================= -->
+    <!-- GUIA RÁPIDO: ESCOLHA SEU CUIDADO                                          -->
+    <!-- ========================================================================= -->
+    <section class="py-12 bg-white border-b border-brand-nude/60">
+      <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center max-w-2xl mx-auto mb-8">
+          <p class="text-xs uppercase tracking-widest text-brand-terracotta font-bold">Por onde você quer começar?</p>
+          <h2 class="font-serif text-2xl sm:text-3xl font-medium text-brand-charcoal mt-1">Conheça os dois universos do meu trabalho</h2>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+          
+          <!-- Card Rápido 1: Massoterapia -->
+          <a href="#massoterapia" class="group relative bg-brand-roseTint/40 hover:bg-brand-roseTint border border-brand-roseSoft/40 hover:border-brand-terracotta rounded-3xl p-6 sm:p-8 transition-all duration-300 shadow-sm hover:shadow-warm flex flex-col justify-between">
+            <div>
+              <div class="flex items-center justify-between mb-4">
+                <span class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-semibold bg-brand-terracotta/10 text-brand-terracottaDark">
+                  <i data-lucide="sparkles" class="w-3.5 h-3.5"></i>
+                  @monique.massoterapia
+                </span>
+                <i data-lucide="arrow-right" class="w-5 h-5 text-brand-terracotta transform group-hover:translate-x-1 transition-transform"></i>
+              </div>
+              <h3 class="font-serif text-2xl font-semibold text-brand-charcoal mb-2">Massoterapia & Alívio Físico</h3>
+              <p class="text-sm text-brand-graphite leading-relaxed">
+                Massagem relaxante, drenagem linfática e massagem terapêutica para alívio de tensões, dores musculares e retenção de líquidos.
+              </p>
+            </div>
+            <div class="mt-6 flex items-center gap-2 text-xs font-bold text-brand-terracotta uppercase tracking-wider">
+              <span>Ver técnicas e agendamento</span>
+            </div>
+          </a>
+
+          <!-- Card Rápido 2: Doula -->
+          <a href="#doula" class="group relative bg-brand-oliveTint/50 hover:bg-brand-oliveTint border border-brand-olive/20 hover:border-brand-oliveDark rounded-3xl p-6 sm:p-8 transition-all duration-300 shadow-sm hover:shadow-soft flex flex-col justify-between">
+            <div>
+              <div class="flex items-center justify-between mb-4">
+                <span class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-semibold bg-brand-olive/15 text-brand-oliveDark">
+                  <i data-lucide="heart-handshake" class="w-3.5 h-3.5"></i>
+                  @parto.commoni
+                </span>
+                <i data-lucide="arrow-right" class="w-5 h-5 text-brand-oliveDark transform group-hover:translate-x-1 transition-transform"></i>
+              </div>
+              <h3 class="font-serif text-2xl font-semibold text-brand-charcoal mb-2">Doula & Acompanhamento Hospitalar</h3>
+              <p class="text-sm text-brand-graphite leading-relaxed">
+                Suporte contínuo físico e emocional no pré-parto, parto no hospital ou maternidade e pós-parto imediato. Presença, informação e respeito.
+              </p>
+            </div>
+            <div class="mt-6 flex items-center gap-2 text-xs font-bold text-brand-oliveDark uppercase tracking-wider">
+              <span>Conhecer o plano de parto e suporte</span>
+            </div>
+          </a>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================================================================= -->
+    <!-- SOBRE A MONIQUE                                                           -->
+    <!-- ========================================================================= -->
+    <section id="sobre" class="py-16 md:py-24 bg-brand-cream border-b border-brand-nude/70 scroll-mt-20">
+      <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+          
+          <!-- Imagem e Composição -->
+          <div class="lg:col-span-5 order-2 lg:order-1">
+            <div class="relative mx-auto max-w-sm lg:max-w-none">
+              
+              <!-- Moldura Estilizada -->
+              <div class="relative rounded-3xl overflow-hidden shadow-warm border-4 border-white aspect-[3/4]">
+                <img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=800&q=80" 
+                     alt="Monique, Massoterapeuta e Doula" 
+                     class="w-full h-full object-cover">
+                <div class="absolute inset-0 bg-gradient-to-t from-brand-charcoal/50 via-transparent to-transparent"></div>
+                <div class="absolute bottom-4 left-4 right-4 text-white">
+                  <p class="text-sm font-semibold tracking-wide">Monique</p>
+                  <p class="text-xs text-brand-sand">Massoterapeuta & Doula Humanizada</p>
+                </div>
+              </div>
+
+              <!-- Selo Decorativo -->
+              <div class="absolute -top-4 -right-4 bg-brand-sand border border-brand-nude p-3 rounded-2xl shadow-soft text-center hidden sm:block">
+                <span class="block text-xl font-serif font-bold text-brand-terracotta">100%</span>
+                <span class="text-[10px] uppercase font-bold text-brand-graphite">Cuidado Dedicado</span>
+              </div>
+
+            </div>
+          </div>
+
+          <!-- Texto Institucional -->
+          <div class="lg:col-span-7 order-1 lg:order-2 space-y-6">
+            <div class="inline-flex items-center gap-2 text-xs uppercase tracking-widest text-brand-terracotta font-bold">
+              <i data-lucide="heart" class="w-3.5 h-3.5"></i>
+              <span>Quem está ao seu lado</span>
+            </div>
+
+            <h2 class="font-serif text-3xl sm:text-4xl lg:text-5xl font-medium text-brand-charcoal leading-tight">
+              Uma trajetória dedicada ao cuidado, à escuta atenta e ao alívio das mulheres.
+            </h2>
+
+            <div class="space-y-4 text-brand-graphite text-base leading-relaxed">
+              <p>
+                Olá, eu sou a <strong>Monique</strong>. Minha missão de vida é proporcionar refúgio, conforto e segurança para mulheres em seus momentos mais significativos — seja aliviando as tensões do dia a dia através da <strong>massoterapia terapêutica</strong>, seja segurando a mão de uma mãe em trabalho de parto como <strong>doula e acompanhante hospitalar</strong>.
+              </p>
+              <p>
+                Acredito profundamente que o toque consciente tem o poder de curar e reestabelecer o equilíbrio. Como massoterapeuta, estudo a anatomia e a sensibilidade do corpo feminino para desatar nós musculares, reduzir o inchaço e resgatar a tranquilidade mental.
+              </p>
+              <p>
+                Como doula, atuo sob a égide do respeito à autonomia da mulher e da medicina baseada em evidências. Estou ao seu lado antes, durante e depois da chegada do seu bebê, garantindo que você se sinta informada, encorajada e acolhida no hospital ou maternidade da sua escolha.
+              </p>
+            </div>
+
+            <!-- Destaques em Colunas -->
+            <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 pt-2">
+              <div class="p-4 rounded-2xl bg-white border border-brand-nude/80">
+                <div class="w-8 h-8 rounded-lg bg-brand-roseTint text-brand-terracotta flex items-center justify-center mb-2">
+                  <i data-lucide="hand" class="w-4 h-4"></i>
+                </div>
+                <h4 class="font-bold text-sm text-brand-charcoal">Toque Conduzido com Técnica</h4>
+                <p class="text-xs text-brand-muted mt-1">Massagens personalizadas de acordo com as necessidades e fase biológica do seu corpo.</p>
+              </div>
+
+              <div class="p-4 rounded-2xl bg-white border border-brand-nude/80">
+                <div class="w-8 h-8 rounded-lg bg-brand-oliveTint text-brand-oliveDark flex items-center justify-center mb-2">
+                  <i data-lucide="shield" class="w-4 h-4"></i>
+                </div>
+                <h4 class="font-bold text-sm text-brand-charcoal">Presença Ética & Contínua</h4>
+                <p class="text-xs text-brand-muted mt-1">Acompanhamento no ambiente hospitalar com tranquilidade, acolhimento e suporte contínuo.</p>
+              </div>
+            </div>
+
+            <div class="pt-2">
+              <a href="https://wa.me/55SEUNUMERO?text=Ol%C3%A1%2C%20Monique!%20Li%20sua%20hist%C3%B3ria%20no%20site%20e%20gostaria%20de%20conversar."
+                 target="_blank"
+                 rel="noopener noreferrer"
+                 class="inline-flex items-center gap-2 text-sm font-semibold text-brand-terracotta hover:text-brand-terracottaDark group">
+                <span>Vamos conversar e tirar suas dúvidas?</span>
+                <i data-lucide="arrow-right" class="w-4 h-4 transform group-hover:translate-x-1 transition-transform"></i>
+              </a>
+            </div>
+
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================================================================= -->
+    <!-- BLOCO 1: MASSOTERAPIA                                                     -->
+    <!-- ========================================================================= -->
+    <section id="massoterapia" class="py-16 md:py-24 bg-white border-b border-brand-nude/70 scroll-mt-20">
+      <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+        
+        <!-- Cabeçalho da Seção -->
+        <div class="max-w-3xl mb-12">
+          <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-brand-roseTint border border-brand-roseSoft/40 text-brand-terracottaDark text-xs font-semibold mb-3">
+            <i data-lucide="sparkles" class="w-3.5 h-3.5 text-brand-terracotta"></i>
+            <span>@monique.massoterapia</span>
+          </div>
+          <h2 class="font-serif text-3xl sm:text-4xl lg:text-5xl font-medium text-brand-charcoal">
+            Massoterapia Terapêutica & Bem-Estar
+          </h2>
+          <p class="text-base sm:text-lg text-brand-graphite mt-3 leading-relaxed">
+            Técnicas manuais personalizadas para aliviar sobrecargas, desacelerar a mente e restaurar a leveza do seu corpo.
+          </p>
+        </div>
+
+        <!-- Grid de Serviços de Massagem -->
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+          
+          <!-- Serviço 1: Massagem Relaxante -->
+          <div class="bg-brand-cream rounded-3xl p-7 border border-brand-nude/90 shadow-sm hover:shadow-warm transition-all duration-300 flex flex-col justify-between group">
+            <div>
+              <div class="w-12 h-12 rounded-2xl bg-brand-roseTint text-brand-terracotta flex items-center justify-center mb-6 group-hover:scale-110 transition-transform">
+                <i data-lucide="feather" class="w-6 h-6"></i>
+              </div>
+              <h3 class="font-serif text-2xl font-semibold text-brand-charcoal mb-3">Massagem Relaxante</h3>
+              <p class="text-sm text-brand-graphite leading-relaxed mb-6">
+                Movimentos suaves e contínuos com aromaterapia e óleos vegetais aquecidos. Ideal para diminuir os níveis de cortisol, amenizar a ansiedade e combater a insônia.
+              </p>
+              
+              <div class="space-y-2 border-t border-brand-nude/60 pt-4 mb-6">
+                <div class="flex items-center gap-2 text-xs text-brand-graphite">
+                  <i data-lucide="check" class="w-4 h-4 text-brand-olive shrink-0"></i>
+                  <span>Alívio profundo do estresse mental</span>
+                </div>
+                <div class="flex items-center gap-2 text-xs text-brand-graphite">
+                  <i data-lucide="check" class="w-4 h-4 text-brand-olive shrink-0"></i>
+                  <span>Melhora expressiva na qualidade do sono</span>
+                </div>
+                <div class="flex items-center gap-2 text-xs text-brand-graphite">
+                  <i data-lucide="check" class="w-4 h-4 text-brand-olive shrink-0"></i>
+                  <span>Relaxamento muscular global</span>
+                </div>
+              </div>
+            </div>
+
+            <a href="https://wa.me/55SEUNUMERO?text=Ol%C3%A1%2C%20Monique!%20Gostaria%20de%20agendar%20uma%20sess%C3%A3o%20de%20Massagem%20Relaxante."
+               target="_blank"
+               rel="noopener noreferrer"
+               class="w-full inline-flex items-center justify-center gap-2 bg-brand-terracotta hover:bg-brand-terracottaDark text-white text-sm font-semibold py-3 px-4 rounded-xl transition-all">
+              <span>Agendar Relaxante</span>
+              <i data-lucide="chevron-right" class="w-4 h-4"></i>
+            </a>
+          </div>
+
+          <!-- Serviço 2: Drenagem Linfática (Destaque Gestantes) -->
+          <div class="bg-brand-roseTint/40 rounded-3xl p-7 border-2 border-brand-terracotta/40 shadow-soft hover:shadow-warm transition-all duration-300 flex flex-col justify-between relative group">
+            <div class="absolute -top-3.5 right-6 bg-brand-terracotta text-white text-[10px] uppercase font-bold tracking-wider py-1 px-3 rounded-full shadow-sm">
+              Especial Gestantes & Pós-Parto
+            </div>
+            <div>
+              <div class="w-12 h-12 rounded-2xl bg-white text-brand-terracotta flex items-center justify-center mb-6 group-hover:scale-110 transition-transform">
+                <i data-lucide="waves" class="w-6 h-6"></i>
+              </div>
+              <h3 class="font-serif text-2xl font-semibold text-brand-charcoal mb-3">Drenagem Linfática</h3>
+              <p class="text-sm text-brand-graphite leading-relaxed mb-6">
+                Manobras lentas, rítmicas e precisas para estimular o sistema linfático, eliminar a retenção hídrica e aliviar o peso e inchaço nas pernas, pés e corpo.
+              </p>
+              
+              <div class="space-y-2 border-t border-brand-nude/60 pt-4 mb-6">
+                <div class="flex items-center gap-2 text-xs text-brand-graphite">
+                  <i data-lucide="check" class="w-4 h-4 text-brand-olive shrink-0"></i>
+                  <span>Indicada para gestantes (com liberação)</span>
+                </div>
+                <div class="flex items-center gap-2 text-xs text-brand-graphite">
+                  <i data-lucide="check" class="w-4 h-4 text-brand-olive shrink-0"></i>
+                  <span>Alívio imediato da sensação de peso nas pernas</span>
+                </div>
+                <div class="flex items-center gap-2 text-xs text-brand-graphite">
+                  <i data-lucide="check" class="w-4 h-4 text-brand-olive shrink-0"></i>
+                  <span>Estímulo seguro da circulação periférica</span>
+                </div>
+              </div>
+            </div>
+
+            <a href="https://wa.me/55SEUNUMERO?text=Ol%C3%A1%2C%20Monique!%20Gostaria%20de%20saber%20mais%20e%20agendar%20Drenagem%20Linf%C3%A1tica."
+               target="_blank"
+               rel="noopener noreferrer"
+               class="w-full inline-flex items-center justify-center gap-2 bg-brand-terracotta hover:bg-brand-terracottaDark text-white text-sm font-semibold py-3 px-4 rounded-xl transition-all">
+              <span>Agendar Drenagem</span>
+              <i data-lucide="chevron-right" class="w-4 h-4"></i>
+            </a>
+          </div>
+
+          <!-- Serviço 3: Massagem Terapêutica / Alívio de Dores -->
+          <div class="bg-brand-cream rounded-3xl p-7 border border-brand-nude/90 shadow-sm hover:shadow-warm transition-all duration-300 flex flex-col justify-between group">
+            <div>
+              <div class="w-12 h-12 rounded-2xl bg-brand-roseTint text-brand-terracotta flex items-center justify-center mb-6 group-hover:scale-110 transition-transform">
+                <i data-lucide="shield-alert" class="w-6 h-6"></i>
+              </div>
+              <h3 class="font-serif text-2xl font-semibold text-brand-charcoal mb-3">Massagem Terapêutica</h3>
+              <p class="text-sm text-brand-graphite leading-relaxed mb-6">
+                Foco pontual na liberação miofascial e desativação de pontos de tensão (trigger points). Ideal para lombalgias, dores na cervical, ombros e contraturas.
+              </p>
+              
+              <div class="space-y-2 border-t border-brand-nude/60 pt-4 mb-6">
+                <div class="flex items-center gap-2 text-xs text-brand-graphite">
+                  <i data-lucide="check" class="w-4 h-4 text-brand-olive shrink-0"></i>
+                  <span>Foco nas regiões de maior dor ou contratura</span>
+                </div>
+                <div class="flex items-center gap-2 text-xs text-brand-graphite">
+                  <i data-lucide="check" class="w-4 h-4 text-brand-olive shrink-0"></i>
+                  <span>Recuperação da amplitude e flexibilidade</span>
+                </div>
+                <div class="flex items-center gap-2 text-xs text-brand-graphite">
+                  <i data-lucide="check" class="w-4 h-4 text-brand-olive shrink-0"></i>
+                  <span>Alívio duradouro para rotinas estressantes</span>
+                </div>
+              </div>
+            </div>
+
+            <a href="https://wa.me/55SEUNUMERO?text=Ol%C3%A1%2C%20Monique!%20Gostaria%20de%20agendar%20uma%20Massagem%20Terap%C3%AAutica%20para%20al%C3%ADvio%20de%20dores."
+               target="_blank"
+               rel="noopener noreferrer"
+               class="w-full inline-flex items-center justify-center gap-2 bg-brand-terracotta hover:bg-brand-terracottaDark text-white text-sm font-semibold py-3 px-4 rounded-xl transition-all">
+              <span>Agendar Alívio de Dor</span>
+              <i data-lucide="chevron-right" class="w-4 h-4"></i>
+            </a>
+          </div>
+
+        </div>
+
+        <!-- Banner com Perfil Instagram Massoterapia -->
+        <div class="mt-12 p-6 rounded-2xl bg-brand-sand/60 border border-brand-nude flex flex-col sm:flex-row items-center justify-between gap-4">
+          <div class="flex items-center gap-3 text-center sm:text-left">
+            <div class="w-10 h-10 rounded-full bg-white text-brand-terracotta flex items-center justify-center shadow-xs">
+              <i data-lucide="instagram" class="w-5 h-5"></i>
+            </div>
+            <div>
+              <p class="text-sm font-semibold text-brand-charcoal">Acompanhe rotinas, dicas e bastidores</p>
+              <p class="text-xs text-brand-muted">Conteúdos sobre autocuidado e massoterapia integrativa no Instagram</p>
+            </div>
+          </div>
+          <a href="https://instagram.com/monique.massoterapia" 
+             target="_blank" 
+             rel="noopener noreferrer"
+             class="inline-flex items-center gap-2 bg-white text-brand-charcoal hover:text-brand-terracotta border border-brand-nude text-xs font-semibold py-2.5 px-4 rounded-full transition-colors">
+            <span>Seguir @monique.massoterapia</span>
+            <i data-lucide="external-link" class="w-3.5 h-3.5"></i>
+          </a>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ========================================================================= -->
+    <!-- BLOCO 2: DOULA & ACOMPANHAMENTO HOSPITALAR                                -->
+    <!-- ========================================================================= -->
+    <section id="doula" class="py-16 md:py-24 bg-brand-sand/40 border-b border-brand-nude/70 scroll-mt-20">
+      <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+        
+        <!-- Cabeçalho da Seção -->
+        <div class="max-w-3xl mb-12">
+          <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-brand-oliveTint border border-brand-olive/30 text-brand-oliveDark text-xs font-semibold mb-3">
+            <i data-lucide="heart" class="w-3.5 h-3.5 text-brand-oliveDark"></i>
+            <span>@parto.commoni</span>
+          </div>
+          <h2 class="font-serif text-3xl sm:text-4xl lg:text-5xl font-medium text-brand-charcoal">
+            Doula & Acompanhante Hospitalar
+          </h2>
+          <p class="text-base sm:text-lg text-brand-graphite mt-3 leading-relaxed">
+            Uma presença contínua, calma e tecnicamente preparada para guiar você e sua família antes, durante e depois da experiência transformadora do parto.
+          </p>
+        </div>
+
+        <!-- 3 Pilares do Suporte Contínuo -->
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mb-12">
+          
+          <!-- Pilar 1: Pré-Parto -->
+          <div class="bg-white rounded-3xl p-7 border border-brand-nude/90 shadow-sm hover:shadow-soft transition-all duration-300 flex flex-col justify-between">
+            <div>
+              <div class="w-12 h-12 rounded-2xl bg-brand-oliveTint text-brand-oliveDark flex items-center justify-center mb-6">
+                <i data-lucide="book-open" class="w-6 h-6"></i>
+              </div>
+              <span class="text-[11px] uppercase tracking-wider font-bold text-brand-oliveDark">Etapa 1 • Gestação</span>
+              <h3 class="font-serif text-2xl font-semibold text-brand-charcoal mt-1 mb-3">Apoio no Pré-Parto</h3>
+              <p class="text-sm text-brand-graphite leading-relaxed mb-6">
+                Encontros pré-natais para construção do seu <strong>Plano de Parto</strong>, estudo da fisiologia, posturas para mobilidade da pelve e desmistificação dos medos.
+              </p>
+
+              <ul class="space-y-2 border-t border-brand-nude/60 pt-4 text-xs text-brand-graphite">
+                <li class="flex items-start gap-2">
+                  <i data-lucide="check" class="w-4 h-4 text-brand-olive mt-0.5 shrink-0"></i>
+                  <span>Elaboração conjunta do Plano de Parto</span>
+                </li>
+                <li class="flex items-start gap-2">
+                  <i data-lucide="check" class="w-4 h-4 text-brand-olive mt-0.5 shrink-0"></i>
+                  <span>Técnicas naturais para manejo e alívio da dor</span>
+                </li>
+                <li class="flex items-start gap-2">
+                  <i data-lucide="check" class="w-4 h-4 text-brand-olive mt-0.5 shrink-0"></i>
+                  <span>Orientação ao parceiro(a) e rede de apoio</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- Pilar 2: Acompanhamento Hospitalar / No Parto -->
+          <div class="bg-brand-oliveTint/40 rounded-3xl p-7 border-2 border-brand-olive/30 shadow-soft hover:shadow-warm transition-all duration-300 flex flex-col justify-between relative">
+            <div class="absolute -top-3.5 right-6 bg-brand-olive text-white text-[10px] uppercase font-bold tracking-wider py-1 px-3 rounded-full shadow-sm">
+              Presença Ininterrupta
+            </div>
+            <div>
+              <div class="w-12 h-12 rounded-2xl bg-white text-brand-oliveDark flex items-center justify-center mb-6">
+                <i data-lucide="activity" class="w-6 h-6"></i>
+              </div>
+              <span class="text-[11px] uppercase tracking-wider font-bold text-brand-oliveDark">Etapa 2 • O Grande Dia</span>
+              <h3 class="font-serif text-2xl font-semibold text-brand-charcoal mt-1 mb-3">Acompanhamento no Parto</h3>
+              <p class="text-sm text-brand-graphite leading-relaxed mb-6">
+                Ida com você para o hospital ou maternidade. Suporte físico contínuo com massagens nas contrações, respiração, hidratação e proteção emocional do seu espaço.
+              </p>
+
+              <ul class="space-y-2 border-t border-brand-nude/60 pt-4 text-xs text-brand-graphite">
+                <li class="flex items-start gap-2">
+                  <i data-lucide="check" class="w-4 h-4 text-brand-olive mt-0.5 shrink-0"></i>
+                  <span>Atuação permitida por lei em hospitais</span>
+                </li>
+                <li class="flex items-start gap-2">
+                  <i data-lucide="check" class="w-4 h-4 text-brand-olive mt-0.5 shrink-0"></i>
+                  <span>Massagens especializadas durante o trabalho de parto</span>
+                </li>
+                <li class="flex items-start gap-2">
+                  <i data-lucide="check" class="w-4 h-4 text-brand-olive mt-0.5 shrink-0"></i>
+                  <span>Voz calma, encorajamento e suporte integral</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- Pilar 3: Pós-Parto & Amamentação -->
+          <div class="bg-white rounded-3xl p-7 border border-brand-nude/90 shadow-sm hover:shadow-soft transition-all duration-300 flex flex-col justify-between">
+            <div>
+              <div class="w-12 h-12 rounded-2xl bg-brand-oliveTint text-brand-oliveDark flex items-center justify-center mb-6">
+                <i data-lucide="baby" class="w-6 h-6"></i>
+              </div>
+              <span class="text-[11px] uppercase tracking-wider font-bold text-brand-oliveDark">Etapa 3 • Puerpério</span>
+              <h3 class="font-serif text-2xl font-semibold text-brand-charcoal mt-1 mb-3">Pós-Parto & Amamentação</h3>
+              <p class="text-sm text-brand-graphite leading-relaxed mb-6">
+                Acolhimento nos primeiros dias com o recém-nascido. Suporte na primeira mamada (Golden Hour), escuta do puerpério e carinho para a mãe que acabou de nascer.
+              </p>
+
+              <ul class="space-y-2 border-t border-brand-nude/60 pt-4 text-xs text-brand-graphite">
+                <li class="flex items-start gap-2">
+                  <i data-lucide="check" class="w-4 h-4 text-brand-olive mt-0.5 shrink-0"></i>
+                  <span>Orientação na pega correta e livre de dor</span>
+                </li>
+                <li class="flex items-start gap-2">
+                  <i data-lucide="check" class="w-4 h-4 text-brand-olive mt-0.5 shrink-0"></i>
+                  <span>Visita domiciliar pós-parto para acolhimento</span>
+                </li>
+                <li class="flex items-start gap-2">
+                  <i data-lucide="check" class="w-4 h-4 text-brand-olive mt-0.5 shrink-0"></i>
+                  <span>Escuta sensível sem julgamentos</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- Caixa de Ação para Doula -->
+        <div class="bg-brand-olive text-white rounded-3xl p-8 sm:p-10 shadow-soft">
+          <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
+            <div class="lg:col-span-8 space-y-3">
+              <span class="text-xs uppercase tracking-widest text-brand-roseSoft font-bold">Vagas Limitadas por Mês</span>
+              <h3 class="font-serif text-2xl sm:text-3xl lg:text-4xl font-medium leading-snug">
+                Deseja ter uma doula ao seu lado no hospital? Vamos agendar uma primeira conversa.
+              </h3>
+              <p class="text-brand-cream/90 text-sm sm:text-base leading-relaxed">
+                Para garantir dedicação exclusiva e disponibilidade total na data provável do seu parto, atendo um número selecionado de gestantes por mês.
+              </p>
+            </div>
+            <div class="lg:col-span-4 flex justify-start lg:justify-end">
+              <a href="https://wa.me/55SEUNUMERO?text=Ol%C3%A1%2C%20Monique!%20Estou%20gr%C3%A1vida%20e%20gostaria%20de%20saber%20mais%20sobre%20seu%20acompanhamento%20como%20Doula."
+                 target="_blank"
+                 rel="noopener noreferrer"
+                 class="w-full sm:w-auto inline-flex items-center justify-center gap-2 bg-white hover:bg-brand-cream text-brand-oliveDark font-semibold px-6 py-4 rounded-full shadow-warm transition-transform transform hover:-translate-y-0.5 text-sm">
+                <i data-lucide="message-circle" class="w-4 h-4 text-brand-olive"></i>
+                <span>Agendar Conversa Inicial</span>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Banner com Perfil Instagram Doula -->
+        <div class="mt-8 p-6 rounded-2xl bg-white border border-brand-nude flex flex-col sm:flex-row items-center justify-between gap-4">
+          <div class="flex items-center gap-3 text-center sm:text-left">
+            <div class="w-10 h-10 rounded-full bg-brand-oliveTint text-brand-oliveDark flex items-center justify-center shadow-xs">
+              <i data-lucide="instagram" class="w-5 h-5"></i>
+            </div>
+            <div>
+              <p class="text-sm font-semibold text-brand-charcoal">Partos reais, relatos e esclarecimentos</p>
+              <p class="text-xs text-brand-muted">Acompanhe @parto.commoni para desmistificar o nascimento respeitoso</p>
+            </div>
+          </div>
+          <a href="https://instagram.com/parto.commoni" 
+             target="_blank" 
+             rel="noopener noreferrer"
+             class="inline-flex items-center gap-2 bg-brand-sand/50 text-brand-charcoal hover:text-brand-oliveDark border border-brand-nude text-xs font-semibold py-2.5 px-4 rounded-full transition-colors">
+            <span>Seguir @parto.commoni</span>
+            <i data-lucide="external-link" class="w-3.5 h-3.5"></i>
+          </a>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ========================================================================= -->
+    <!-- DIFERENCIAIS / POR QUE ESCOLHER A MONIQUE                                 -->
+    <!-- ========================================================================= -->
+    <section id="diferenciais" class="py-16 md:py-24 bg-brand-cream border-b border-brand-nude/70 scroll-mt-20">
+      <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+        
+        <div class="text-center max-w-2xl mx-auto mb-16">
+          <span class="text-xs uppercase tracking-widest text-brand-terracotta font-bold">Por que confiar em mim</span>
+          <h2 class="font-serif text-3xl sm:text-4xl lg:text-5xl font-medium text-brand-charcoal mt-2">
+            Cuidado construído com respeito, ciência e presença
+          </h2>
+          <p class="text-brand-graphite text-sm sm:text-base mt-3">
+            Cada mulher e cada família possuem histórias únicas. Meu trabalho é honrar o seu tempo, as suas escolhas e o seu corpo.
+          </p>
+        </div>
+
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+          
+          <div class="bg-white p-6 rounded-3xl border border-brand-nude/80 shadow-sm hover:shadow-soft transition-all">
+            <div class="w-12 h-12 rounded-2xl bg-brand-roseTint text-brand-terracotta flex items-center justify-center mb-5">
+              <i data-lucide="heart" class="w-6 h-6"></i>
+            </div>
+            <h3 class="font-serif text-xl font-semibold text-brand-charcoal mb-2">Escuta Ativa & Empatia</h3>
+            <p class="text-xs sm:text-sm text-brand-muted leading-relaxed">
+              Sem pressa ou julgamentos. Um espaço de conversa aberto onde seus receios e desejos são genuinamente ouvidos.
+            </p>
+          </div>
+
+          <div class="bg-white p-6 rounded-3xl border border-brand-nude/80 shadow-sm hover:shadow-soft transition-all">
+            <div class="w-12 h-12 rounded-2xl bg-brand-oliveTint text-brand-oliveDark flex items-center justify-center mb-5">
+              <i data-lucide="book-check" class="w-6 h-6"></i>
+            </div>
+            <h3 class="font-serif text-xl font-semibold text-brand-charcoal mb-2">Base em Evidências</h3>
+            <p class="text-xs sm:text-sm text-brand-muted leading-relaxed">
+              Informação clara e atualizada para que você tome decisões conscientes e seguras sobre seu corpo e seu parto.
+            </p>
+          </div>
+
+          <div class="bg-white p-6 rounded-3xl border border-brand-nude/80 shadow-sm hover:shadow-soft transition-all">
+            <div class="w-12 h-12 rounded-2xl bg-brand-roseTint text-brand-terracotta flex items-center justify-center mb-5">
+              <i data-lucide="crown" class="w-6 h-6"></i>
+            </div>
+            <h3 class="font-serif text-xl font-semibold text-brand-charcoal mb-2">Protagonismo Feminino</h3>
+            <p class="text-xs sm:text-sm text-brand-muted leading-relaxed">
+              O parto e a saúde pertencem a você. Minha função é ser o alicerce e o apoio contínuo para as suas escolhas.
+            </p>
+          </div>
+
+          <div class="bg-white p-6 rounded-3xl border border-brand-nude/80 shadow-sm hover:shadow-soft transition-all">
+            <div class="w-12 h-12 rounded-2xl bg-brand-oliveTint text-brand-oliveDark flex items-center justify-center mb-5">
+              <i data-lucide="hand-metal" class="w-6 h-6"></i>
+            </div>
+            <h3 class="font-serif text-xl font-semibold text-brand-charcoal mb-2">Sinergia Massagem + Doula</h3>
+            <p class="text-xs sm:text-sm text-brand-muted leading-relaxed">
+              O conhecimento profundo das tensões corporais da massoterapia aplicado diretamente no alívio natural das contrações.
+            </p>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ========================================================================= -->
+    <!-- DEPOIMENTOS / SOCIAL PROOF                                                -->
+    <!-- ========================================================================= -->
+    <section id="depoimentos" class="py-16 md:py-24 bg-white border-b border-brand-nude/70 scroll-mt-20">
+      <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+        
+        <div class="text-center max-w-2xl mx-auto mb-16">
+          <span class="text-xs uppercase tracking-widest text-brand-oliveDark font-bold">Relatos e Carinho</span>
+          <h2 class="font-serif text-3xl sm:text-4xl lg:text-5xl font-medium text-brand-charcoal mt-2">
+            Vozes de quem viveu essa experiência
+          </h2>
+          <p class="text-brand-graphite text-sm sm:text-base mt-3">
+            O carinho e a confiança de mães, bebês e pacientes que dividiram momentos inesquecíveis comigo.
+          </p>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+          
+          <!-- Depoimento 1 (Parto / Doula) -->
+          <div class="bg-brand-cream p-8 rounded-3xl border border-brand-nude/80 flex flex-col justify-between shadow-sm relative">
+            <div>
+              <div class="flex items-center gap-1 text-amber-500 mb-4">
+                <i data-lucide="star" class="w-4 h-4 fill-current"></i>
+                <i data-lucide="star" class="w-4 h-4 fill-current"></i>
+                <i data-lucide="star" class="w-4 h-4 fill-current"></i>
+                <i data-lucide="star" class="w-4 h-4 fill-current"></i>
+                <i data-lucide="star" class="w-4 h-4 fill-current"></i>
+              </div>
+              <p class="text-brand-graphite text-sm sm:text-base italic leading-relaxed mb-6 font-serif">
+                "A presença da Monique no meu parto foi o divisor de águas. Quando achei que não aguentaria mais as dores, as mãos dela, a massagem na lombar e a voz tranquila me trouxeram de volta. Meu marido também se sentiu seguro e amparado o tempo todo."
+              </p>
+            </div>
+            <div class="flex items-center gap-3 pt-4 border-t border-brand-nude/60">
+              <div class="w-10 h-10 rounded-full bg-brand-roseTint text-brand-terracotta flex items-center justify-center font-bold text-sm">
+                CP
+              </div>
+              <div>
+                <p class="font-semibold text-sm text-brand-charcoal">Camila P. & Bento</p>
+                <p class="text-xs text-brand-muted">Acompanhamento de Parto Hospitalar</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Depoimento 2 (Massagem Gestante / Drenagem) -->
+          <div class="bg-brand-roseTint/30 p-8 rounded-3xl border border-brand-roseSoft/50 flex flex-col justify-between shadow-soft relative">
+            <div>
+              <div class="flex items-center gap-1 text-amber-500 mb-4">
+                <i data-lucide="star" class="w-4 h-4 fill-current"></i>
+                <i data-lucide="star" class="w-4 h-4 fill-current"></i>
+                <i data-lucide="star" class="w-4 h-4 fill-current"></i>
+                <i data-lucide="star" class="w-4 h-4 fill-current"></i>
+                <i data-lucide="star" class="w-4 h-4 fill-current"></i>
+              </div>
+              <p class="text-brand-graphite text-sm sm:text-base italic leading-relaxed mb-6 font-serif">
+                "Estava com 34 semanas sofrendo com retenção de líquido e dores nas pernas. A drenagem com a Monique é muito cuidadosa e respeitosa com a barriga. Saí da maca flutuando e consegui ter noites de sono restauradoras. Indico de olhos fechados!"
+              </p>
+            </div>
+            <div class="flex items-center gap-3 pt-4 border-t border-brand-roseSoft/40">
+              <div class="w-10 h-10 rounded-full bg-white text-brand-terracotta flex items-center justify-center font-bold text-sm">
+                MR
+              </div>
+              <div>
+                <p class="font-semibold text-sm text-brand-charcoal">Mariana R.</p>
+                <p class="text-xs text-brand-muted">Drenagem Linfática para Gestante</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Depoimento 3 (Massagem Terapêutica & Relaxante) -->
+          <div class="bg-brand-cream p-8 rounded-3xl border border-brand-nude/80 flex flex-col justify-between shadow-sm relative">
+            <div>
+              <div class="flex items-center gap-1 text-amber-500 mb-4">
+                <i data-lucide="star" class="w-4 h-4 fill-current"></i>
+                <i data-lucide="star" class="w-4 h-4 fill-current"></i>
+                <i data-lucide="star" class="w-4 h-4 fill-current"></i>
+                <i data-lucide="star" class="w-4 h-4 fill-current"></i>
+                <i data-lucide="star" class="w-4 h-4 fill-current"></i>
+              </div>
+              <p class="text-brand-graphite text-sm sm:text-base italic leading-relaxed mb-6 font-serif">
+                "Trabalho horas na frente do computador e minhas costas estavam em nós constantes. A massagem terapêutica da Monique desfez os nós na cervical logo na primeira sessão. O ambiente é calmo, cheiroso e transmite uma paz imensa."
+              </p>
+            </div>
+            <div class="flex items-center gap-3 pt-4 border-t border-brand-nude/60">
+              <div class="w-10 h-10 rounded-full bg-brand-oliveTint text-brand-oliveDark flex items-center justify-center font-bold text-sm">
+                LS
+              </div>
+              <div>
+                <p class="font-semibold text-sm text-brand-charcoal">Larissa S.</p>
+                <p class="text-xs text-brand-muted">Massagem Terapêutica / Alívio de Dores</p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ========================================================================= -->
+    <!-- PERGUNTAS FREQUENTES (FAQ EXPANDÍVEL)                                     -->
+    <!-- ========================================================================= -->
+    <section id="faq" class="py-16 md:py-24 bg-brand-cream border-b border-brand-nude/70 scroll-mt-20">
+      <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+        
+        <div class="text-center mb-12">
+          <span class="text-xs uppercase tracking-widest text-brand-terracotta font-bold">Esclareça suas dúvidas</span>
+          <h2 class="font-serif text-3xl sm:text-4xl lg:text-5xl font-medium text-brand-charcoal mt-2">
+            Perguntas Frequentes
+          </h2>
+          <p class="text-brand-graphite text-sm sm:text-base mt-2">
+            Respostas para as dúvidas mais comuns sobre os atendimentos de massagem e acompanhamento de doula.
+          </p>
+        </div>
+
+        <div class="space-y-4" id="faq-accordion">
+          
+          <!-- Item FAQ 1 -->
+          <div class="faq-item bg-white rounded-2xl border border-brand-nude/80 overflow-hidden transition-all duration-200">
+            <button type="button" 
+                    class="faq-button w-full px-6 py-5 text-left flex items-center justify-between gap-4 font-serif text-lg sm:text-xl font-medium text-brand-charcoal focus:outline-none"
+                    aria-expanded="false">
+              <span>Como funciona o acompanhamento de Doula no hospital? A lei permite?</span>
+              <i data-lucide="chevron-down" class="faq-icon w-5 h-5 text-brand-terracotta shrink-0 transition-transform duration-300"></i>
+            </button>
+            <div class="faq-answer max-h-0 opacity-0 overflow-hidden px-6 pb-0 transition-all duration-300">
+              <p class="text-sm sm:text-base text-brand-graphite pb-5 leading-relaxed">
+                Sim! Em quase todo o Brasil há legislações específicas (Leis das Doulas estaduais e municipais) que asseguram a presença da doula nos hospitais e maternidades (públicos e privados) <strong>sem substituir o acompanhante de escolha da gestante</strong>. Minha atuação é de suporte contínuo físico e emocional: ofereço massagens, auxílio na respiração, sugestões de posições que favorecem a descida do bebê e acolhimento ininterrupto durante todo o trabalho de parto.
+              </p>
+            </div>
+          </div>
+
+          <!-- Item FAQ 2 -->
+          <div class="faq-item bg-white rounded-2xl border border-brand-nude/80 overflow-hidden transition-all duration-200">
+            <button type="button" 
+                    class="faq-button w-full px-6 py-5 text-left flex items-center justify-between gap-4 font-serif text-lg sm:text-xl font-medium text-brand-charcoal focus:outline-none"
+                    aria-expanded="false">
+              <span>Gestantes podem fazer massoterapia? A partir de quantas semanas?</span>
+              <i data-lucide="chevron-down" class="faq-icon w-5 h-5 text-brand-terracotta shrink-0 transition-transform duration-300"></i>
+            </button>
+            <div class="faq-answer max-h-0 opacity-0 overflow-hidden px-6 pb-0 transition-all duration-300">
+              <p class="text-sm sm:text-base text-brand-graphite pb-5 leading-relaxed">
+                Com certeza! A recomendação médica padrão é iniciar após o primeiro trimestre (a partir da 12ª ou 14ª semana de gestação), com autorização do obstetra responsável. As sessões são totalmente adaptadas para a gestante, utilizando posições confortáveis (decúbito lateral com almofadas), manobras suaves e seguras, focadas em aliviar as dores na lombar, ciático e retenção de líquidos nas pernas e pés.
+              </p>
+            </div>
+          </div>
+
+          <!-- Item FAQ 3 -->
+          <div class="faq-item bg-white rounded-2xl border border-brand-nude/80 overflow-hidden transition-all duration-200">
+            <button type="button" 
+                    class="faq-button w-full px-6 py-5 text-left flex items-center justify-between gap-4 font-serif text-lg sm:text-xl font-medium text-brand-charcoal focus:outline-none"
+                    aria-expanded="false">
+              <span>Onde são realizados os atendimentos de massoterapia e os encontros de doula?</span>
+              <i data-lucide="chevron-down" class="faq-icon w-5 h-5 text-brand-terracotta shrink-0 transition-transform duration-300"></i>
+            </button>
+            <div class="faq-answer max-h-0 opacity-0 overflow-hidden px-6 pb-0 transition-all duration-300">
+              <p class="text-sm sm:text-base text-brand-graphite pb-5 leading-relaxed">
+                Os atendimentos de massoterapia acontecem em espaço acolhedor e climatizado, especialmente preparado com aromaterapia e sons relaxantes. Para encontros de doula e casos especiais de gestantes/pós-parto imediato, também realizo atendimentos domiciliares ou online para a construção do plano de parto. Consulte disponibilidade para a sua região pelo WhatsApp!
+              </p>
+            </div>
+          </div>
+
+          <!-- Item FAQ 4 -->
+          <div class="faq-item bg-white rounded-2xl border border-brand-nude/80 overflow-hidden transition-all duration-200">
+            <button type="button" 
+                    class="faq-button w-full px-6 py-5 text-left flex items-center justify-between gap-4 font-serif text-lg sm:text-xl font-medium text-brand-charcoal focus:outline-none"
+                    aria-expanded="false">
+              <span>Como funciona a contratação do serviço de Doula?</span>
+              <i data-lucide="chevron-down" class="faq-icon w-5 h-5 text-brand-terracotta shrink-0 transition-transform duration-300"></i>
+            </button>
+            <div class="faq-answer max-h-0 opacity-0 overflow-hidden px-6 pb-0 transition-all duration-300">
+              <p class="text-sm sm:text-base text-brand-graphite pb-5 leading-relaxed">
+                Primeiro, marcamos uma <strong>conversa inicial sem compromisso</strong> (online ou presencial) para nos conhecermos, entender suas expectativas e alinhar a disponibilidade para o mês provável do parto. Fechado o contrato, iniciamos os encontros pré-parto, fico de sobreaviso contínuo a partir da 37ª semana e estarei presente ao seu lado desde o início ativo do trabalho de parto até as primeiras horas após o nascimento.
+              </p>
+            </div>
+          </div>
+
+          <!-- Item FAQ 5 -->
+          <div class="faq-item bg-white rounded-2xl border border-brand-nude/80 overflow-hidden transition-all duration-200">
+            <button type="button" 
+                    class="faq-button w-full px-6 py-5 text-left flex items-center justify-between gap-4 font-serif text-lg sm:text-xl font-medium text-brand-charcoal focus:outline-none"
+                    aria-expanded="false">
+              <span>A Doula substitui o médico ou a equipe de enfermagem?</span>
+              <i data-lucide="chevron-down" class="faq-icon w-5 h-5 text-brand-terracotta shrink-0 transition-transform duration-300"></i>
+            </button>
+            <div class="faq-answer max-h-0 opacity-0 overflow-hidden px-6 pb-0 transition-all duration-300">
+              <p class="text-sm sm:text-base text-brand-graphite pb-5 leading-relaxed">
+                Não. A doula não realiza procedimentos médicos ou clínicos (como toques vaginais, aferição de pressão ou ausculta fetal). O papel da doula é o suporte contínuo <strong>físico, emocional e informativo</strong>. Doulas e equipes hospitalares trabalham em harmonia para garantir a melhor experiência e segurança possível para mãe e bebê.
+              </p>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ========================================================================= -->
+    <!-- CTA PRÉ-RODAPÉ / CONVITE AO DIÁLOGO                                      -->
+    <!-- ========================================================================= -->
+    <section class="py-16 md:py-20 bg-brand-roseTint/60 border-b border-brand-roseSoft/50">
+      <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center space-y-6">
+        
+        <div class="inline-flex items-center justify-center w-14 h-14 rounded-full bg-white text-brand-terracotta shadow-soft mx-auto">
+          <i data-lucide="sparkles" class="w-6 h-6"></i>
+        </div>
+
+        <h2 class="font-serif text-3xl sm:text-4xl lg:text-5xl font-medium text-brand-charcoal">
+          Sinta-se segura, relaxada e acolhida.
+        </h2>
+
+        <p class="text-base sm:text-lg text-brand-graphite max-w-2xl mx-auto leading-relaxed">
+          Tire suas dúvidas, consulte horários disponíveis ou solicite uma proposta personalizada. Será uma alegria imensa cuidar de você!
+        </p>
+
+        <div class="pt-2">
+          <a href="https://wa.me/55SEUNUMERO?text=Ol%C3%A1%2C%20Monique!%20Visitei%20seu%20site%20e%20gostaria%20de%20conversar%20sobre%20seus%20servi%C3%A7os."
+             target="_blank"
+             rel="noopener noreferrer"
+             class="inline-flex items-center justify-center gap-3 bg-brand-terracotta hover:bg-brand-terracottaDark text-white font-semibold text-base px-8 py-4 rounded-full shadow-warm transition-transform transform hover:-translate-y-0.5">
+            <i data-lucide="message-circle" class="w-5 h-5"></i>
+            <span>Iniciar Conversa no WhatsApp</span>
+          </a>
+        </div>
+
+      </div>
+    </section>
+  </main>
+
+  <!-- ========================================================================= -->
+  <!-- FOOTER / RODAPÉ                                                           -->
+  <!-- ========================================================================= -->
+  <footer id="contato" class="bg-brand-charcoal text-brand-sand py-16">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="grid grid-cols-1 md:grid-cols-12 gap-10 pb-12 border-b border-brand-graphite/40">
+        
+        <!-- Coluna 1: Apresentação -->
+        <div class="md:col-span-5 space-y-4">
+          <span class="font-serif text-2xl font-bold tracking-wide text-white">Monique</span>
+          <p class="text-xs uppercase tracking-widest text-brand-roseSoft font-medium">Massoterapia & Doulagem Hospitalar</p>
+          <p class="text-xs sm:text-sm text-brand-sand/70 max-w-sm leading-relaxed">
+            Dedicação ao bem-estar feminino, alívio de tensões, acolhimento integral na maternidade e acompanhamento respeitoso no nascimento.
+          </p>
+          <div class="flex items-center gap-2 text-xs text-brand-sand/80 pt-2">
+            <i data-lucide="map-pin" class="w-4 h-4 text-brand-roseSoft shrink-0"></i>
+            <span>Atendimento em consultório, domiciliar e hospitais/maternidades da região.</span>
+          </div>
+        </div>
+
+        <!-- Coluna 2: Navegação Rápida -->
+        <div class="md:col-span-3 space-y-3">
+          <h4 class="font-serif text-lg font-semibold text-white">Navegação</h4>
+          <ul class="space-y-2 text-xs sm:text-sm text-brand-sand/70">
+            <li><a href="#sobre" class="hover:text-white transition-colors">Sobre a Monique</a></li>
+            <li><a href="#massoterapia" class="hover:text-white transition-colors">Massoterapia Relaxante & Dores</a></li>
+            <li><a href="#doula" class="hover:text-white transition-colors">Doula & Parto Humanizado</a></li>
+            <li><a href="#diferenciais" class="hover:text-white transition-colors">Diferenciais e Abordagem</a></li>
+            <li><a href="#depoimentos" class="hover:text-white transition-colors">Depoimentos de Pacientes</a></li>
+            <li><a href="#faq" class="hover:text-white transition-colors">Perguntas Frequentes</a></li>
+          </ul>
+        </div>
+
+        <!-- Coluna 3: Conexões e Redes Sociais -->
+        <div class="md:col-span-4 space-y-4">
+          <h4 class="font-serif text-lg font-semibold text-white">Redes Sociais & Contato</h4>
+          
+          <div class="space-y-3">
+            <a href="https://instagram.com/monique.massoterapia" 
+               target="_blank" 
+               rel="noopener noreferrer"
+               class="flex items-center gap-3 p-3 rounded-xl bg-white/5 hover:bg-white/10 transition-colors border border-white/5">
+              <div class="w-8 h-8 rounded-lg bg-brand-roseSoft/20 text-brand-roseSoft flex items-center justify-center">
+                <i data-lucide="instagram" class="w-4 h-4"></i>
+              </div>
+              <div>
+                <p class="text-xs font-semibold text-white">@monique.massoterapia</p>
+                <p class="text-[11px] text-brand-sand/60">Massagens, relaxamento & autocuidado</p>
+              </div>
+            </a>
+
+            <a href="https://instagram.com/parto.commoni" 
+               target="_blank" 
+               rel="noopener noreferrer"
+               class="flex items-center gap-3 p-3 rounded-xl bg-white/5 hover:bg-white/10 transition-colors border border-white/5">
+              <div class="w-8 h-8 rounded-lg bg-brand-oliveTint/20 text-brand-roseSoft flex items-center justify-center">
+                <i data-lucide="instagram" class="w-4 h-4"></i>
+              </div>
+              <div>
+                <p class="text-xs font-semibold text-white">@parto.commoni</p>
+                <p class="text-[11px] text-brand-sand/60">Doulagem, gestação & parto hospitalar</p>
+              </div>
+            </a>
+
+            <a href="https://wa.me/55SEUNUMERO?text=Ol%C3%A1%2C%20Monique!%20Gostaria%20de%20agendar%20um%20hor%C3%A1rio." 
+               target="_blank" 
+               rel="noopener noreferrer"
+               class="flex items-center gap-3 p-3 rounded-xl bg-brand-olive/20 hover:bg-brand-olive/30 transition-colors border border-brand-olive/30 text-white">
+              <div class="w-8 h-8 rounded-lg bg-brand-olive text-white flex items-center justify-center">
+                <i data-lucide="message-circle" class="w-4 h-4"></i>
+              </div>
+              <div>
+                <p class="text-xs font-semibold text-white">WhatsApp Direto</p>
+                <p class="text-[11px] text-brand-sand/80">Clique para iniciar atendimento</p>
+              </div>
+            </a>
+          </div>
+
+        </div>
+
+      </div>
+
+      <!-- Assinatura e Copyright -->
+      <div class="pt-8 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-brand-sand/50">
+        <p>&copy; <span id="current-year"></span> Monique • Todos os direitos reservados.</p>
+        <p class="flex items-center gap-1">
+          Feito com carinho e acolhimento para o cuidado feminino.
+        </p>
+      </div>
+
+    </div>
+  </footer>
+
+  <!-- ========================================================================= -->
+  <!-- BOTÃO FLUTUANTE DO WHATSAPP COM TOOLTIP                                   -->
+  <!-- ========================================================================= -->
+  <div class="fixed bottom-6 right-6 z-50 flex items-center group">
+    <!-- Tooltip amigável -->
+    <div class="hidden sm:block mr-3 bg-white text-brand-charcoal text-xs font-semibold px-3 py-1.5 rounded-xl shadow-lg border border-brand-nude transition-opacity opacity-0 group-hover:opacity-100 pointer-events-none whitespace-nowrap">
+      Fale com a Monique no WhatsApp
+    </div>
+
+    <!-- Botão com Animação de Pulso -->
+    <a href="https://wa.me/55SEUNUMERO?text=Ol%C3%A1%2C%20Monique!%20Gostaria%20de%20informa%C3%A7%C3%B5es%20sobre%20seus%20atendimentos."
+       target="_blank"
+       rel="noopener noreferrer"
+       aria-label="Abrir conversa no WhatsApp"
+       class="relative flex items-center justify-center w-14 h-14 bg-emerald-600 hover:bg-emerald-700 text-white rounded-full shadow-warm transition-transform duration-300 transform hover:scale-110 focus:outline-none">
+      
+      <!-- Efeito de pulso suave -->
+      <span class="absolute inline-flex h-full w-full rounded-full bg-emerald-400 opacity-30 animate-ping"></span>
+      
+      <svg class="w-7 h-7 fill-current relative z-10" viewBox="0 0 24 24">
+        <path d="M17.472 14.382c-.301-.15-1.78-.878-2.056-.979-.276-.101-.476-.15-.677.15-.2.301-.777.979-.953 1.179-.175.2-.351.226-.652.075s-1.272-.469-2.423-1.496c-.896-.799-1.501-1.787-1.677-2.088-.175-.301-.019-.464.132-.614.136-.135.301-.351.451-.527.15-.175.2-.301.301-.501.101-.2.05-.376-.025-.526-.075-.15-.677-1.631-.928-2.233-.244-.585-.493-.506-.677-.515h-.577c-.2 0-.527.075-.802.376s-1.053 1.028-1.053 2.509 1.078 2.91 1.229 3.111c.15.201 2.121 3.239 5.138 4.542.718.311 1.278.497 1.716.636.721.229 1.377.197 1.896.119.579-.088 1.78-.727 2.031-1.43.251-.702.251-1.304.175-1.43-.075-.126-.275-.201-.576-.351zM12.04 2c-5.523 0-10 4.477-10 10 0 1.76.459 3.414 1.264 4.861L2 22l5.289-1.267C8.7 21.547 10.315 22 12.04 22c5.523 0 10-4.477 10-10s-4.477-10-10-10zm0 18.25c-1.558 0-3.008-.43-4.254-1.18l-.305-.185-3.14.752.766-3.061-.202-.321A8.204 8.204 0 013.79 12c0-4.548 3.702-8.25 8.25-8.25 4.548 0 8.25 3.702 8.25 8.25 0 4.548-3.702 8.25-8.25 8.25z"/>
+      </svg>
+    </a>
+  </div>
+
+  <!-- ========================================================================= -->
+  <!-- JAVASCRIPT INLINE INTERATIVO                                              -->
+  <!-- ========================================================================= -->
+  <script>
+    // 1. Inicialização dos Ícones Lucide
+    document.addEventListener('DOMContentLoaded', () => {
+      if (window.lucide) {
+        window.lucide.createIcons();
+      }
+
+      // Ano automático no rodapé
+      const yearSpan = document.getElementById('current-year');
+      if (yearSpan) {
+        yearSpan.textContent = new Date().getFullYear();
+      }
+    });
+
+    // 2. Menu Mobile Responsivo
+    const mobileMenuBtn = document.getElementById('mobile-menu-btn');
+    const mobileMenu = document.getElementById('mobile-menu');
+    const hamburgerIcon = document.getElementById('hamburger-icon');
+    const closeIcon = document.getElementById('close-icon');
+    const mobileNavLinks = document.querySelectorAll('.mobile-nav-link');
+
+    if (mobileMenuBtn && mobileMenu) {
+      mobileMenuBtn.addEventListener('click', () => {
+        const isExpanded = mobileMenuBtn.getAttribute('aria-expanded') === 'true';
+        mobileMenuBtn.setAttribute('aria-expanded', !isExpanded);
+        mobileMenu.classList.toggle('hidden');
+        
+        if (hamburgerIcon && closeIcon) {
+          hamburgerIcon.classList.toggle('hidden');
+          closeIcon.classList.toggle('hidden');
+        }
+      });
+
+      // Fechar menu mobile ao clicar em qualquer link de âncora
+      mobileNavLinks.forEach(link => {
+        link.addEventListener('click', () => {
+          mobileMenu.classList.add('hidden');
+          mobileMenuBtn.setAttribute('aria-expanded', 'false');
+          if (hamburgerIcon && closeIcon) {
+            hamburgerIcon.classList.remove('hidden');
+            closeIcon.classList.add('hidden');
+          }
+        });
+      });
+    }
+
+    // 3. FAQ Accordion Interativo com Acessibilidade
+    const faqButtons = document.querySelectorAll('.faq-button');
+
+    faqButtons.forEach(button => {
+      button.addEventListener('click', () => {
+        const item = button.closest('.faq-item');
+        const answer = item.querySelector('.faq-answer');
+        const icon = button.querySelector('.faq-icon');
+        const isExpanded = button.getAttribute('aria-expanded') === 'true';
+
+        // Fecha todos os outros itens para manter o accordion limpo
+        faqButtons.forEach(otherButton => {
+          if (otherButton !== button) {
+            otherButton.setAttribute('aria-expanded', 'false');
+            const otherItem = otherButton.closest('.faq-item');
+            const otherAnswer = otherItem.querySelector('.faq-answer');
+            const otherIcon = otherButton.querySelector('.faq-icon');
+            
+            otherAnswer.style.maxHeight = '0px';
+            otherAnswer.classList.remove('opacity-100');
+            otherAnswer.classList.add('opacity-0');
+            if (otherIcon) {
+              otherIcon.classList.remove('rotate-180');
+            }
+          }
+        });
+
+        // Alterna o estado do item clicado
+        if (isExpanded) {
+          button.setAttribute('aria-expanded', 'false');
+          answer.style.maxHeight = '0px';
+          answer.classList.remove('opacity-100');
+          answer.classList.add('opacity-0');
+          if (icon) icon.classList.remove('rotate-180');
+        } else {
+          button.setAttribute('aria-expanded', 'true');
+          answer.style.maxHeight = answer.scrollHeight + 'px';
+          answer.classList.remove('opacity-0');
+          answer.classList.add('opacity-100');
+          if (icon) icon.classList.add('rotate-180');
+        }
+      });
+    });
+  </script>
+
+</body>
+</html>
