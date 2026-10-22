@@ -263,7 +263,7 @@
               <!-- Card com a Foto Real de Monique Duarte -->
               <div class="bg-white p-3 sm:p-4 rounded-3xl shadow-float border border-brand-nude/80">
                 <div class="relative rounded-2xl overflow-hidden aspect-[3/4] bg-brand-sand">
-                  <img src="monique-duarte.png" 
+                  <img src="assets/monique-duarte.png" 
                        alt="Monique Duarte - Massoterapeuta, Doula e Acompanhante Hospitalar" 
                        class="w-full h-full object-cover object-top transform hover:scale-105 transition-transform duration-700">
                   <div class="absolute inset-0 bg-gradient-to-t from-brand-charcoal/70 via-transparent to-transparent"></div>
@@ -493,21 +493,73 @@
     <section id="massoterapia" class="py-16 md:py-24 bg-white border-b border-brand-nude/70 scroll-mt-20">
       <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         
-        <div class="max-w-3xl mb-12">
-          <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-brand-roseTint border border-brand-roseSoft/40 text-brand-terracottaDark text-xs font-semibold mb-3">
-            <i data-lucide="sparkles" class="w-3.5 h-3.5 text-brand-terracotta"></i>
-            <span>Serviço 1 • @monique.massoterapia</span>
+        <!-- Cabeçalho com Localização Exata -->
+        <div class="flex flex-col md:flex-row md:items-end justify-between gap-6 mb-12">
+          <div class="max-w-2xl">
+            <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-brand-roseTint border border-brand-roseSoft/40 text-brand-terracottaDark text-xs font-semibold mb-3">
+              <i data-lucide="sparkles" class="w-3.5 h-3.5 text-brand-terracotta"></i>
+              <span>Serviço 1 • @monique.massoterapia • Campinas-SP</span>
+            </div>
+            <h2 class="font-serif text-3xl sm:text-4xl lg:text-5xl font-medium text-brand-charcoal">
+              Massoterapia Terapêutica & Bem-Estar
+            </h2>
+            <p class="text-base sm:text-lg text-brand-graphite mt-3 leading-relaxed">
+              Sessões individuais de <strong>60 minutos</strong> em ambiente calmo e climatizado, preparado com aromaterapia para você desacelerar e aliviar dores.
+            </p>
           </div>
-          <h2 class="font-serif text-3xl sm:text-4xl lg:text-5xl font-medium text-brand-charcoal">
-            Massoterapia Terapêutica & Bem-Estar
-          </h2>
-          <p class="text-base sm:text-lg text-brand-graphite mt-3 leading-relaxed">
-            Técnicas manuais personalizadas com base anatômica para desacelerar a mente, diminuir tensões e restaurar a leveza do seu corpo.
-          </p>
+
+          <!-- Card de Localização: Jardim Guanabara -->
+          <div class="bg-brand-cream border border-brand-nude rounded-2xl p-4 md:max-w-xs shrink-0 shadow-xs">
+            <div class="flex items-start gap-3">
+              <div class="w-8 h-8 rounded-xl bg-brand-roseTint text-brand-terracotta flex items-center justify-center shrink-0 mt-0.5">
+                <i data-lucide="map-pin" class="w-4 h-4"></i>
+              </div>
+              <div>
+                <p class="text-xs font-bold text-brand-charcoal">Espaço Menezes</p>
+                <p class="text-[11px] text-brand-graphite">Jardim Guanabara — Campinas/SP</p>
+                <p class="text-[10px] text-brand-muted mt-0.5 font-medium">Salas para Aluguel • Fácil acesso</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- DESTAQUE COMERCIAL: Oferta Especial 1ª Sessão por R$ 99 -->
+        <div class="mb-12 bg-gradient-to-r from-brand-roseTint/80 via-brand-cream to-brand-oliveTint/60 border-2 border-brand-terracotta/40 rounded-3xl p-6 sm:p-8 shadow-warm">
+          <div class="grid grid-cols-1 lg:grid-cols-12 gap-6 items-center">
+            
+            <div class="lg:col-span-8 space-y-2">
+              <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-brand-terracotta text-white text-[11px] font-bold uppercase tracking-wider">
+                <i data-lucide="sparkles" class="w-3.5 h-3.5"></i>
+                <span>Condição Especial para Nova Cliente</span>
+              </div>
+              <h3 class="font-serif text-2xl sm:text-3xl font-semibold text-brand-charcoal">
+                Experimente a sua 1ª sessão de 60 minutos por apenas R$ 99
+              </h3>
+              <p class="text-xs sm:text-sm text-brand-graphite leading-relaxed">
+                Um momento exclusivo para você conhecer o toque terapêutico, desacelerar da rotina pesada e sentir o alívio das tensões acumuladas. Atendimento individual com hora marcada.
+              </p>
+            </div>
+
+            <div class="lg:col-span-4 flex flex-col sm:flex-row lg:flex-col items-center lg:items-end justify-center gap-3">
+              <div class="text-center lg:text-right">
+                <span class="text-xs text-brand-muted line-through block">De R$ 150</span>
+                <span class="text-3xl sm:text-4xl font-serif font-bold text-brand-terracotta">R$ 99</span>
+                <span class="text-[11px] text-brand-graphite block font-medium">Sessão completa de 60 min</span>
+              </div>
+              <a href="https://wa.me/5519993408088?text=Oi!%20Vi%20a%20massoterapia%20no%20site%20e%20gostaria%20de%20saber%20mais%20sobre%20a%20primeira%20sess%C3%A3o%20de%20R%2499."
+                 target="_blank"
+                 rel="noopener noreferrer"
+                 class="w-full sm:w-auto inline-flex items-center justify-center gap-2 bg-brand-terracotta hover:bg-brand-terracottaDark text-white text-xs sm:text-sm font-semibold px-6 py-3 rounded-full shadow-soft transition-all">
+                <i data-lucide="calendar" class="w-4 h-4"></i>
+                <span>Agendar 1ª Sessão (R$ 99)</span>
+              </a>
+            </div>
+
+          </div>
         </div>
 
         <!-- Grid de Serviços de Massagem -->
-        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mb-12">
           
           <!-- Serviço 1: Massagem Relaxante -->
           <div class="bg-brand-cream rounded-3xl p-7 border border-brand-nude/90 shadow-sm hover:shadow-warm transition-all duration-300 flex flex-col justify-between group">
@@ -515,7 +567,8 @@
               <div class="w-12 h-12 rounded-2xl bg-brand-roseTint text-brand-terracotta flex items-center justify-center mb-6 group-hover:scale-110 transition-transform">
                 <i data-lucide="feather" class="w-6 h-6"></i>
               </div>
-              <h3 class="font-serif text-2xl font-semibold text-brand-charcoal mb-3">Massagem Relaxante</h3>
+              <span class="text-[11px] font-bold text-brand-terracotta uppercase tracking-wider">60 Minutos Individuais</span>
+              <h3 class="font-serif text-2xl font-semibold text-brand-charcoal mt-1 mb-3">Massagem Relaxante</h3>
               <p class="text-sm text-brand-graphite leading-relaxed mb-6">
                 Movimentos suaves e contínuos com aromaterapia e óleos vegetais aquecidos. Ideal para diminuir o cortisol, combater a ansiedade e regular o sono.
               </p>
@@ -536,7 +589,7 @@
               </div>
             </div>
 
-            <a href="https://wa.me/5519993408088?text=Ol%C3%A1%2C%20Monique!%20Gostaria%20de%20agendar%20uma%20sess%C3%A3o%20de%20Massagem%20Relaxante."
+            <a href="https://wa.me/5519993408088?text=Oi!%20Vi%20a%20massoterapia%20no%20site%20e%20gostaria%20de%20agendar%20uma%20sess%C3%A3o%20de%20Massagem%20Relaxante."
                target="_blank"
                rel="noopener noreferrer"
                class="w-full inline-flex items-center justify-center gap-2 bg-brand-terracotta hover:bg-brand-terracottaDark text-white text-sm font-semibold py-3 px-4 rounded-xl transition-all">
@@ -554,7 +607,8 @@
               <div class="w-12 h-12 rounded-2xl bg-white text-brand-terracotta flex items-center justify-center mb-6 group-hover:scale-110 transition-transform">
                 <i data-lucide="waves" class="w-6 h-6"></i>
               </div>
-              <h3 class="font-serif text-2xl font-semibold text-brand-charcoal mb-3">Drenagem Linfática</h3>
+              <span class="text-[11px] font-bold text-brand-terracotta uppercase tracking-wider">60 Minutos Individuais</span>
+              <h3 class="font-serif text-2xl font-semibold text-brand-charcoal mt-1 mb-3">Drenagem Linfática</h3>
               <p class="text-sm text-brand-graphite leading-relaxed mb-6">
                 Manobras lentas, rítmicas e precisas para estimular o sistema linfático, eliminar o inchaço e aliviar o peso nas pernas, pés e corpo.
               </p>
@@ -575,7 +629,7 @@
               </div>
             </div>
 
-            <a href="https://wa.me/5519993408088?text=Ol%C3%A1%2C%20Monique!%20Gostaria%20de%20saber%20mais%20e%20agendar%20Drenagem%20Linf%C3%A1tica."
+            <a href="https://wa.me/5519993408088?text=Oi!%20Vi%20a%20massoterapia%20no%20site%20e%20gostaria%20de%20agendar%20Drenagem%20Linf%C3%A1tica."
                target="_blank"
                rel="noopener noreferrer"
                class="w-full inline-flex items-center justify-center gap-2 bg-brand-terracotta hover:bg-brand-terracottaDark text-white text-sm font-semibold py-3 px-4 rounded-xl transition-all">
@@ -590,7 +644,8 @@
               <div class="w-12 h-12 rounded-2xl bg-brand-roseTint text-brand-terracotta flex items-center justify-center mb-6 group-hover:scale-110 transition-transform">
                 <i data-lucide="shield-alert" class="w-6 h-6"></i>
               </div>
-              <h3 class="font-serif text-2xl font-semibold text-brand-charcoal mb-3">Massagem Terapêutica</h3>
+              <span class="text-[11px] font-bold text-brand-terracotta uppercase tracking-wider">60 Minutos Individuais</span>
+              <h3 class="font-serif text-2xl font-semibold text-brand-charcoal mt-1 mb-3">Massagem Terapêutica</h3>
               <p class="text-sm text-brand-graphite leading-relaxed mb-6">
                 Foco pontual na liberação de pontos de tensão e nós miofasciais. Indicada para lombalgias, dores na cervical, ombros, trapézio e contraturas.
               </p>
@@ -611,7 +666,7 @@
               </div>
             </div>
 
-            <a href="https://wa.me/5519993408088?text=Ol%C3%A1%2C%20Monique!%20Gostaria%20de%20agendar%20uma%20Massagem%20Terap%C3%AAutica%20para%20al%C3%ADvio%20de%20dores."
+            <a href="https://wa.me/5519993408088?text=Oi!%20Vi%20a%20massoterapia%20no%20site%20e%20gostaria%20de%20agendar%20uma%20Massagem%20Terap%C3%AAutica%20para%20al%C3%ADvio%20de%20dores."
                target="_blank"
                rel="noopener noreferrer"
                class="w-full inline-flex items-center justify-center gap-2 bg-brand-terracotta hover:bg-brand-terracottaDark text-white text-sm font-semibold py-3 px-4 rounded-xl transition-all">
@@ -622,6 +677,116 @@
 
         </div>
 
+        <!-- TABELA TRANSPARENTE DE VALORES & PACOTES -->
+        <div class="bg-brand-sand/50 border border-brand-nude rounded-3xl p-6 sm:p-8 mb-12">
+          <div class="text-center max-w-xl mx-auto mb-8">
+            <span class="text-xs uppercase tracking-widest text-brand-terracotta font-bold">Investimento Transparente</span>
+            <h3 class="font-serif text-2xl sm:text-3xl font-medium text-brand-charcoal mt-1">Valores Avulsos & Pacotes de Cuidado</h3>
+            <p class="text-xs sm:text-sm text-brand-muted mt-2">Escolha a opção ideal para a sua rotina de relaxamento e alívio.</p>
+          </div>
+
+          <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+            
+            <!-- Opção 1: 1ª Sessão Avulsa -->
+            <div class="bg-white p-6 rounded-2xl border border-brand-nude shadow-xs flex flex-col justify-between">
+              <div>
+                <span class="text-[11px] uppercase tracking-wider font-bold text-brand-terracotta">Experimentação</span>
+                <h4 class="font-serif text-xl font-semibold text-brand-charcoal mt-1">Primeira Sessão</h4>
+                <p class="text-xs text-brand-muted mt-1">Sessão individual de 60 minutos para novas clientes.</p>
+                <div class="mt-4 pt-4 border-t border-brand-nude/70">
+                  <span class="text-3xl font-serif font-bold text-brand-charcoal">R$ 99</span>
+                  <span class="text-xs text-brand-muted block">Condição de boas-vindas</span>
+                </div>
+              </div>
+              <a href="https://wa.me/5519993408088?text=Oi!%20Vi%20a%20massoterapia%20no%20site%20e%20gostaria%20de%20saber%20mais%20sobre%20a%20primeira%20sess%C3%A3o%20de%20R%2499."
+                 target="_blank"
+                 rel="noopener noreferrer"
+                 class="mt-6 w-full text-center bg-brand-cream hover:bg-brand-sand text-brand-charcoal border border-brand-nude text-xs font-semibold py-2.5 px-4 rounded-xl transition-colors">
+                Agendar 1ª Sessão
+              </a>
+            </div>
+
+            <!-- Opção 2: Pacote Inicial (Destaque Custo-Benefício) -->
+            <div class="bg-white p-6 rounded-2xl border-2 border-brand-terracotta shadow-warm flex flex-col justify-between relative">
+              <div class="absolute -top-3 right-4 bg-brand-terracotta text-white text-[10px] font-bold uppercase tracking-wider px-2.5 py-0.5 rounded-full">
+                Melhor Escolha Inicial
+              </div>
+              <div>
+                <span class="text-[11px] uppercase tracking-wider font-bold text-brand-terracotta">Plano de Entrada</span>
+                <h4 class="font-serif text-xl font-semibold text-brand-charcoal mt-1">Pacote Inicial (3 Sessões)</h4>
+                <p class="text-xs text-brand-muted mt-1">Garante suas 3 primeiras sessões por um valor reduzido (~R$ 116 cada).</p>
+                <div class="mt-4 pt-4 border-t border-brand-nude/70">
+                  <span class="text-3xl font-serif font-bold text-brand-terracotta">R$ 350</span>
+                  <span class="text-xs text-brand-muted block">3 sessões de 60 minutos (economia imediata)</span>
+                </div>
+              </div>
+              <a href="https://wa.me/5519993408088?text=Oi!%20Vi%20o%20site%20e%20gostaria%20de%20agendar%20o%20Pacote%20Inicial%20de%203%20sess%C3%B5es%20por%20R%24350."
+                 target="_blank"
+                 rel="noopener noreferrer"
+                 class="mt-6 w-full text-center bg-brand-terracotta hover:bg-brand-terracottaDark text-white text-xs font-semibold py-2.5 px-4 rounded-xl transition-colors">
+                Garantir Pacote Inicial
+              </a>
+            </div>
+
+            <!-- Opção 3: Sessões & Pacotes Regulares -->
+            <div class="bg-white p-6 rounded-2xl border border-brand-nude shadow-xs flex flex-col justify-between">
+              <div>
+                <span class="text-[11px] uppercase tracking-wider font-bold text-brand-oliveDark">Cuidado Contínuo</span>
+                <h4 class="font-serif text-xl font-semibold text-brand-charcoal mt-1">Sessões Recorrentes</h4>
+                <p class="text-xs text-brand-muted mt-1">Para manter sua rotina de bem-estar ao longo dos meses.</p>
+                <div class="mt-4 pt-4 border-t border-brand-nude/70 space-y-1.5 text-xs text-brand-graphite">
+                  <p>• <strong>Sessão Avulsa:</strong> R$ 150 (60 min)</p>
+                  <p>• <strong>Pacote 3 Sessões:</strong> R$ 390 (R$ 130/sessão)</p>
+                  <p>• <strong>Pacote 5 Sessões:</strong> R$ 650 (R$ 130/sessão)</p>
+                </div>
+              </div>
+              <a href="https://wa.me/5519993408088?text=Oi!%20Gostaria%20de%20consultar%20os%20pacotes%20recorrentes%20de%20massoterapia."
+                 target="_blank"
+                 rel="noopener noreferrer"
+                 class="mt-6 w-full text-center bg-brand-cream hover:bg-brand-sand text-brand-charcoal border border-brand-nude text-xs font-semibold py-2.5 px-4 rounded-xl transition-colors">
+                Consultar Pacotes
+              </a>
+            </div>
+
+          </div>
+        </div>
+
+        <!-- Como funciona a experiência (Jornada da Cliente) -->
+        <div class="border-t border-brand-nude/70 pt-10">
+          <div class="text-center max-w-xl mx-auto mb-8">
+            <h4 class="font-serif text-2xl font-medium text-brand-charcoal">Como funciona o seu atendimento</h4>
+            <p class="text-xs text-brand-muted mt-1">Uma experiência transparente e acolhedora do início ao fim.</p>
+          </div>
+
+          <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
+            
+            <div class="p-4 rounded-2xl bg-brand-cream/60 border border-brand-nude/70 text-center">
+              <span class="w-7 h-7 rounded-full bg-brand-roseTint text-brand-terracotta inline-flex items-center justify-center font-bold text-xs mb-3">1</span>
+              <h5 class="font-bold text-xs text-brand-charcoal">Agendamento Fácil</h5>
+              <p class="text-[11px] text-brand-muted mt-1">Combina o melhor dia e horário diretamente comigo pelo WhatsApp.</p>
+            </div>
+
+            <div class="p-4 rounded-2xl bg-brand-cream/60 border border-brand-nude/70 text-center">
+              <span class="w-7 h-7 rounded-full bg-brand-roseTint text-brand-terracotta inline-flex items-center justify-center font-bold text-xs mb-3">2</span>
+              <h5 class="font-bold text-xs text-brand-charcoal">Chegada no Espaço</h5>
+              <p class="text-[11px] text-brand-muted mt-1">Espaço Menezes no Jardim Guanabara, Campinas, preparado e climatizado.</p>
+            </div>
+
+            <div class="p-4 rounded-2xl bg-brand-cream/60 border border-brand-nude/70 text-center">
+              <span class="w-7 h-7 rounded-full bg-brand-roseTint text-brand-terracotta inline-flex items-center justify-center font-bold text-xs mb-3">3</span>
+              <h5 class="font-bold text-xs text-brand-charcoal">Sessão de 60 Minutos</h5>
+              <p class="text-[11px] text-brand-muted mt-1">Toque terapêutico individual focado no seu relaxamento ou alívio de dor.</p>
+            </div>
+
+            <div class="p-4 rounded-2xl bg-brand-cream/60 border border-brand-nude/70 text-center">
+              <span class="w-7 h-7 rounded-full bg-brand-roseTint text-brand-terracotta inline-flex items-center justify-center font-bold text-xs mb-3">4</span>
+              <h5 class="font-bold text-xs text-brand-charcoal">Leveza & Retorno</h5>
+              <p class="text-[11px] text-brand-muted mt-1">Sensação renovada de leveza e dicas práticas de autocuidado para sua rotina.</p>
+            </div>
+
+          </div>
+        </div>
+
         <!-- Banner com Perfil Instagram Massoterapia -->
         <div class="mt-12 p-6 rounded-2xl bg-brand-sand/60 border border-brand-nude flex flex-col sm:flex-row items-center justify-between gap-4">
           <div class="flex items-center gap-3 text-center sm:text-left">
@@ -630,7 +795,7 @@
             </div>
             <div>
               <p class="text-sm font-semibold text-brand-charcoal">Acompanhe rotinas, dicas e bastidores</p>
-              <p class="text-xs text-brand-muted">Conteúdos sobre autocuidado e massoterapia no Instagram</p>
+              <p class="text-xs text-brand-muted">Conteúdos sobre autocuidado e massoterapia em Campinas no Instagram</p>
             </div>
           </div>
           <a href="https://instagram.com/monique.massoterapia" 
@@ -1217,17 +1382,42 @@
             </div>
           </div>
 
-          <!-- Item FAQ 5: Onde ocorrem os atendimentos de Massoterapia -->
+          <!-- Item FAQ 5: Onde ocorrem os atendimentos de Massoterapia e Valores -->
           <div class="faq-item bg-white rounded-2xl border border-brand-nude/80 overflow-hidden transition-all duration-200">
             <button type="button" 
                     class="faq-button w-full px-6 py-5 text-left flex items-center justify-between gap-4 font-serif text-lg sm:text-xl font-medium text-brand-charcoal focus:outline-none"
                     aria-expanded="false">
-              <span>Qual é a região de atendimento da Monique Duarte?</span>
+              <span>Onde fica o consultório de Massoterapia e quais são os valores das sessões?</span>
               <i data-lucide="chevron-down" class="faq-icon w-5 h-5 text-brand-terracotta shrink-0 transition-transform duration-300"></i>
             </button>
             <div class="faq-answer max-h-0 opacity-0 overflow-hidden px-6 pb-0 transition-all duration-300">
               <p class="text-sm sm:text-base text-brand-graphite pb-5 leading-relaxed">
-                Atendo na região de abrangência do DDD 19 (Campinas e região metropolitana/cidades vizinhas), tanto em espaço reservado para massoterapia quanto em atendimentos domiciliares e nos hospitais/maternidades da região. Fale comigo pelo WhatsApp <strong>(19) 99340-8088</strong> para consultar a sua localidade!
+                Os atendimentos de massoterapia acontecem com hora marcada no <strong>Espaço Menezes Salas para Aluguel — Jardim Guanabara, Campinas/SP</strong>, em sala individual, climatizada e com aromaterapia.
+                <br><br>
+                • <strong>Primeira sessão de experimentação:</strong> R$ 99 (sessão individual completa de 60 minutos para novas clientes).
+                <br>
+                • <strong>Sessão avulsa normal:</strong> R$ 150 (60 minutos).
+                <br>
+                • <strong>Pacote inicial de 3 sessões:</strong> R$ 350 (ótima economia, saindo a ~R$ 116 por sessão).
+                <br>
+                • <strong>Pacotes recorrentes de cuidado contínuo:</strong> 3 sessões por R$ 390 ou 5 sessões por R$ 650.
+                <br><br>
+                Para agendar seu horário, basta me chamar no WhatsApp <strong>(19) 99340-8088</strong>!
+              </p>
+            </div>
+          </div>
+
+          <!-- Item FAQ 6: Região de Atendimento Geral -->
+          <div class="faq-item bg-white rounded-2xl border border-brand-nude/80 overflow-hidden transition-all duration-200">
+            <button type="button" 
+                    class="faq-button w-full px-6 py-5 text-left flex items-center justify-between gap-4 font-serif text-lg sm:text-xl font-medium text-brand-charcoal focus:outline-none"
+                    aria-expanded="false">
+              <span>Qual é a região de atendimento para Doula e Acompanhante Hospitalar?</span>
+              <i data-lucide="chevron-down" class="faq-icon w-5 h-5 text-brand-terracotta shrink-0 transition-transform duration-300"></i>
+            </button>
+            <div class="faq-answer max-h-0 opacity-0 overflow-hidden px-6 pb-0 transition-all duration-300">
+              <p class="text-sm sm:text-base text-brand-graphite pb-5 leading-relaxed">
+                Atendo nos hospitais, maternidades e domicílios em <strong>Campinas e cidades da região metropolitana (DDD 19)</strong>. Fale comigo pelo WhatsApp <strong>(19) 99340-8088</strong> para alinhar a disponibilidade e a sua localidade!
               </p>
             </div>
           </div>
@@ -1283,9 +1473,13 @@
           <p class="text-xs sm:text-sm text-brand-sand/70 max-w-sm leading-relaxed">
             Dedicação ao bem-estar, alívio de dores, acolhimento integral no parto e suporte afetuoso a pacientes hospitalizados de todas as idades.
           </p>
-          <div class="flex items-center gap-2 text-xs text-brand-sand/80 pt-2">
-            <i data-lucide="map-pin" class="w-4 h-4 text-brand-roseSoft shrink-0"></i>
-            <span>Atendimento em consultório, domiciliar e hospitais/maternidades (Região DDD 19).</span>
+          <div class="flex items-start gap-2 text-xs text-brand-sand/80 pt-2">
+            <i data-lucide="map-pin" class="w-4 h-4 text-brand-roseSoft shrink-0 mt-0.5"></i>
+            <div>
+              <p class="font-semibold text-white">Espaço Menezes — Jardim Guanabara, Campinas/SP</p>
+              <p class="text-[11px] text-brand-sand/60">Consultório de Massoterapia • Sessões individuais de 60 min</p>
+              <p class="text-[11px] text-brand-sand/60 mt-0.5">Doula e Acomp. Hospitalar: Campinas e maternidades da região (DDD 19)</p>
+            </div>
           </div>
         </div>
 

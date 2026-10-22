@@ -25,9 +25,13 @@ Publicado e hospedado gratuitamente na **Vercel** através da integração com o
 ## 🌸 Os 3 Serviços no Site
 
 - **1. Massoterapia (@monique.massoterapia):**
-  - Massagem Relaxante (alívio do cortisol, relaxamento muscular e regulação do sono).
-  - Drenagem Linfática (especial para gestantes e redução de edemas/inchaço).
-  - Massagem Terapêutica (foco em alívio de nós miofasciais, lombalgias e contraturas).
+  - **Local:** Espaço Menezes Salas para Aluguel — Jardim Guanabara, Campinas/SP
+  - **Duração:** Sessões individuais de 60 minutos
+  - **1ª Sessão Especial:** R$ 99 (condição de experimentação para novas clientes)
+  - **Sessão Avulsa Normal:** R$ 150
+  - **Pacote Inicial:** 3 sessões por R$ 350 (~R$ 116/sessão • economia imediata)
+  - **Pacotes Recorrentes:** 3 sessões por R$ 390 / 5 sessões por R$ 650
+  - Massagem Relaxante, Drenagem Linfática (especial para gestantes) e Massagem Terapêutica.
 - **2. Doula de Parto & Maternidade (@parto.commoni):**
   - Apoio no Pré-Parto: Elaboração conjunta do Plano de Parto, mobilidade pélvica e métodos naturais de alívio da dor.
   - Apoio no Parto: Presença contínua e respaldada por lei nos hospitais/maternidades, massagens nas contrações e proteção emocional.
