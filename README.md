@@ -1,9 +1,9 @@
-# 🌿 Monique Duarte | Massoterapia • Doula • Acompanhamento Hospitalar
+# 🌿 Monique Duarte | Massoterapia • Doula Gestacional • Acompanhante em Saúde
 
 Site institucional e landing page profissional desenvolvido para **Monique Duarte**, reunindo suas **3 frentes de atuação** com uma experiência acolhedora, sensível e clinicamente embasada:
 1. **Massoterapia & Bem-Estar** ([@monique.massoterapia](https://instagram.com/monique.massoterapia))
-2. **Doula no Parto & Maternidade** ([@parto.commoni](https://instagram.com/parto.commoni))
-3. **Acompanhante Hospitalar Humanizada** (Crianças, Adultos, Idosos • Qualquer Condição)
+2. **Doula na Gestação Completa & Parto** ([@parto.commoni](https://instagram.com/parto.commoni))
+3. **Acompanhante em Saúde: Consultas, Exames & Hospital** (Todas as Idades • Crianças, Adultos e Idosos)
 
 Publicado e hospedado gratuitamente na **Vercel** através da integração com o **GitHub**.
 
@@ -32,10 +32,11 @@ Publicado e hospedado gratuitamente na **Vercel** através da integração com o
   - **Pacote Inicial:** 3 sessões por R$ 350 (~R$ 116/sessão • economia imediata)
   - **Pacotes Recorrentes:** 3 sessões por R$ 390 / 5 sessões por R$ 650
   - Massagem Relaxante, Drenagem Linfática (especial para gestantes) e Massagem Terapêutica.
-- **2. Doula de Parto & Maternidade (@parto.commoni):**
-  - Apoio no Pré-Parto: Elaboração conjunta do Plano de Parto, mobilidade pélvica e métodos naturais de alívio da dor.
-  - Apoio no Parto: Presença contínua e respaldada por lei nos hospitais/maternidades, massagens nas contrações e proteção emocional.
-  - Pós-Parto: Golden Hour, apoio à amamentação e escuta acolhedora à puérpera.
+- **2. Doula na Gestação Completa & Parto (@parto.commoni):**
+  - Apoio Gestacional: Acompanhamento contínuo trimestre a trimestre (1º, 2º e 3º trimestres), escuta empática e esclarecimento de dúvidas.
+  - Pré-Parto: Elaboração conjunta do Plano de Parto, mobilidade pélvica, métodos naturais de alívio da dor e sobreaviso integral 24h.
+  - Parto: Presença contínua e respaldada por lei nos hospitais/maternidades, massagens nas contrações e proteção emocional.
+  - Pós-Parto: Golden Hour, apoio à amamentação e acolhimento domiciliar no puerpério.
 - **3. Acompanhante em Saúde (Consultas, Exames & Hospital):**
   - **Consultas Médicas:** Ida junto ao consultório, anotação cuidadosa de condutas e prescrições do médico e envio de relatório para a família.
   - **Exames & Procedimentos com Sedação:** Suporte em exames com acompanhante obrigatório (endoscopia, colonoscopia, ressonâncias, biópsias).
