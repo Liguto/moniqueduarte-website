@@ -11,7 +11,7 @@ Publicado e hospedado gratuitamente na **Vercel** através da integração com o
 
 ## 👩‍⚕️ Sobre a Profissional: Monique Duarte
 
-- **Sobre:** Monique Duarte (nascida em 17/06/2001) é mãe do Nicolas (nascido em 31/08/2023), unindo sua vivência real de maternidade à formação técnica em saúde.
+- **Sobre:** Monique Duarte (25 anos) é mãe do Nicolas (3 anos), unindo sua vivência real de maternidade à sólida formação técnica em saúde.
 - **Contato / WhatsApp:** `(19) 99340-8088` (link direto: `https://wa.me/5519993408088`)
 - **Região de Atendimento:** DDD 19 (Campinas e região metropolitana / interior de SP)
 - **Credenciais & Formações:**
