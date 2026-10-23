@@ -3,51 +3,67 @@
         xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
     <loc>https://moniqueduarte.com.br/</loc>
-    <lastmod>2026-10-22</lastmod>
-    <changefreq>weekly</changefreq>
+    <lastmod>2026-10-23</lastmod>
+    <changefreq>daily</changefreq>
     <priority>1.0</priority>
     <image:image>
       <image:loc>https://moniqueduarte.com.br/assets/monique-duarte.png</image:loc>
       <image:title>Monique Duarte - Massoterapeuta, Doula e Acompanhante em Saúde</image:title>
     </image:image>
     <image:image>
+      <image:loc>https://moniqueduarte.com.br/assets/logo-monique-duarte.jpg</image:loc>
+      <image:title>Logo Oficial Monique Duarte</image:title>
+    </image:image>
+    <image:image>
       <image:loc>https://moniqueduarte.com.br/assets/monique-enfermagem.png</image:loc>
-      <image:title>Monique Duarte - Técnica em Enfermagem e Doula em Campinas</image:title>
+      <image:title>Monique Duarte - Formação Clínica em Enfermagem</image:title>
     </image:image>
   </url>
   <url>
-    <loc>https://moniqueduarte.com.br/#massoterapia</loc>
-    <lastmod>2026-10-22</lastmod>
+    <loc>https://moniqueduarte.com.br/massoterapia.html</loc>
+    <lastmod>2026-10-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://moniqueduarte.com.br/assets/mass_pic.png</image:loc>
+      <image:title>Massoterapia em Campinas - Casa Gê e Espaço Menezes</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://moniqueduarte.com.br/#doula</loc>
-    <lastmod>2026-10-22</lastmod>
+    <loc>https://moniqueduarte.com.br/doula.html</loc>
+    <lastmod>2026-10-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://moniqueduarte.com.br/assets/monique-enfermagem.png</image:loc>
+      <image:title>Doula Gestacional e Parto em Campinas - Monique Duarte</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://moniqueduarte.com.br/#hospitalar</loc>
-    <lastmod>2026-10-22</lastmod>
+    <loc>https://moniqueduarte.com.br/acompanhante-saude.html</loc>
+    <lastmod>2026-10-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://moniqueduarte.com.br/assets/acomp_pic.png</image:loc>
+      <image:title>Acompanhante em Consultas, Exames e Hospital em Campinas</image:title>
+    </image:image>
   </url>
   <url>
     <loc>https://moniqueduarte.com.br/#sobre</loc>
-    <lastmod>2026-10-22</lastmod>
+    <lastmod>2026-10-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://moniqueduarte.com.br/#depoimentos</loc>
-    <lastmod>2026-10-22</lastmod>
+    <lastmod>2026-10-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://moniqueduarte.com.br/#faq</loc>
-    <lastmod>2026-10-22</lastmod>
+    <lastmod>2026-10-23</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
