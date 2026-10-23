@@ -16,7 +16,7 @@ Publicado e hospedado gratuitamente na **Vercel** através da integração com o
 - **Região de Atendimento:** DDD 19 (Campinas e região metropolitana / interior de SP)
 - **Credenciais & Formações:**
   - 🎓 **Doula Formada:** Suporte físico, emocional e informativo contínuo na gestação, parto hospitalar e pós-parto.
-  - 🌸 **Massoterapeuta Formada:** Técnicas manuais terapêuticas, relaxamento profundo e drenagem linfática para gestantes.
+  - 🌸 **Massoterapeuta Formada:** Técnicas manuais terapêuticas para alívio de dores musculares e relaxamento profundo.
   - 🩺 **Técnica em Enfermagem (Último Semestre):** Olhar clínico, leitura de sinais vitais, rigor asséptico e segurança em ambiente hospitalar.
   - 🛡️ **Brigada de Incêndio & Primeiros Socorros:** Preparo para agir com rapidez, segurança e calma em situações de urgência.
 
@@ -31,7 +31,7 @@ Publicado e hospedado gratuitamente na **Vercel** através da integração com o
   - **Sessão Avulsa Normal:** R$ 150
   - **Pacote Inicial:** 3 sessões por R$ 350 (~R$ 116/sessão • economia imediata)
   - **Pacotes Recorrentes:** 3 sessões por R$ 390 / 5 sessões por R$ 650
-  - Massagem Relaxante, Drenagem Linfática (especial para gestantes) e Massagem Terapêutica.
+  - Massagem Relaxante (com aromaterapia e óleos aquecidos) e Massagem Terapêutica (alívio de nós, tensões e contraturas).
 - **2. Doula na Gestação Completa & Parto (@parto.commoni):**
   - Apoio Gestacional: Acompanhamento contínuo trimestre a trimestre (1º, 2º e 3º trimestres), escuta empática e esclarecimento de dúvidas.
   - Pré-Parto: Elaboração conjunta do Plano de Parto, mobilidade pélvica, métodos naturais de alívio da dor e sobreaviso integral 24h.
