@@ -114,12 +114,19 @@
 
 <body class="bg-brand-cream text-brand-charcoal font-sans antialiased selection:bg-brand-roseSoft/40 selection:text-brand-charcoal">
 
-  <!-- BARRA DE AVISO SUPERIOR COM TELEFONE -->
+  <!-- BARRA DE AVISO SUPERIOR COM TELEFONE & VOUCHER -->
   <div class="bg-brand-olive text-brand-cream text-xs py-2 px-4 transition-colors">
     <div class="max-w-6xl mx-auto flex items-center justify-between gap-2 text-xs">
       <div class="flex items-center gap-1.5 truncate">
         <i data-lucide="sparkles" class="w-3.5 h-3.5 text-brand-roseSoft shrink-0"></i>
         <span class="truncate">Monique Duarte • Campinas/SP</span>
+        <a href="https://wa.me/5519993408088?text=Oi%20Monique!%20Vi%20o%20an%C3%BAncio%20e%20gostaria%20de%20resgatar%20meu%20Voucher%20de%20R$%2050%20OFF%20na%20primeira%20massagem."
+           target="_blank"
+           rel="noopener noreferrer"
+           class="hidden sm:inline-flex items-center gap-1 bg-brand-terracotta hover:bg-brand-terracottaDark text-white text-[10px] font-bold px-2 py-0.5 rounded-full transition-colors ml-1 shadow-xs shrink-0">
+          <i data-lucide="ticket" class="w-3 h-3"></i>
+          <span>Voucher Massoterapia R$ 50 OFF</span>
+        </a>
       </div>
       <div class="flex items-center gap-2 font-medium shrink-0">
         <a href="https://wa.me/5519993408088" target="_blank" rel="noopener noreferrer" class="hover:text-brand-roseSoft transition-colors flex items-center gap-1.5 font-bold text-white bg-white/10 px-2.5 py-0.5 rounded-full">
@@ -261,26 +268,40 @@
         <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
           
           <!-- Card 1: Massoterapia -->
-          <a href="massoterapia.html" class="group bg-brand-cream hover:bg-brand-sand/60 border border-brand-nude/90 hover:border-brand-terracotta rounded-3xl p-6 transition-all duration-300 shadow-sm hover:shadow-warm flex flex-col justify-between">
+          <div class="group bg-brand-cream hover:bg-brand-sand/60 border border-brand-nude/90 hover:border-brand-terracotta rounded-3xl p-6 transition-all duration-300 shadow-sm hover:shadow-warm flex flex-col justify-between">
             <div class="space-y-3">
               <div class="flex items-center justify-between">
                 <span class="text-[11px] font-bold text-brand-terracotta uppercase tracking-wider bg-brand-roseTint px-2.5 py-0.5 rounded-full">
                   Casa Gê & Guanabara
                 </span>
-                <span class="text-xs font-bold text-brand-terracotta">1ª Sessão R$ 99</span>
+                <span class="text-xs font-bold text-brand-terracotta flex items-center gap-1">
+                  <i data-lucide="ticket" class="w-3.5 h-3.5"></i>
+                  <span>Voucher R$ 50 OFF</span>
+                </span>
               </div>
-              <h3 class="font-serif text-2xl font-semibold text-brand-charcoal group-hover:text-brand-terracotta transition-colors">
-                Massoterapia & Bem-Estar
-              </h3>
+              <a href="massoterapia.html" class="block">
+                <h3 class="font-serif text-2xl font-semibold text-brand-charcoal group-hover:text-brand-terracotta transition-colors">
+                  Massoterapia & Bem-Estar
+                </h3>
+              </a>
               <p class="text-xs sm:text-sm text-brand-graphite leading-relaxed">
                 Sessões individuais de 60 min. Alívio de nós musculares, relaxamento profundo e liberação de tensões corporais.
               </p>
             </div>
-            <div class="mt-6 pt-4 border-t border-brand-nude/70 flex items-center justify-between text-xs font-bold text-brand-terracotta">
-              <span>Ver técnicas, valores e locais</span>
-              <i data-lucide="arrow-right" class="w-4 h-4 transform group-hover:translate-x-1 transition-transform"></i>
+            <div class="mt-6 pt-4 border-t border-brand-nude/70 flex flex-col gap-2.5">
+              <a href="https://wa.me/5519993408088?text=Oi%20Monique!%20Vi%20o%20an%C3%BAncio%20e%20gostaria%20de%20resgatar%20meu%20Voucher%20de%20R$%2050%20OFF%20na%20primeira%20massagem."
+                 target="_blank"
+                 rel="noopener noreferrer"
+                 class="w-full inline-flex items-center justify-center gap-2 bg-[#25D366] hover:bg-[#20bd5a] text-white text-xs font-bold py-2.5 px-3 rounded-xl transition-all shadow-xs group/btn active:scale-95">
+                <i data-lucide="ticket" class="w-3.5 h-3.5 transition-transform group-hover/btn:rotate-12"></i>
+                <span>Resgatar Voucher R$ 50 OFF</span>
+              </a>
+              <a href="massoterapia.html" class="flex items-center justify-between text-xs font-bold text-brand-terracotta hover:underline pt-1">
+                <span>Ver técnicas, valores e locais</span>
+                <i data-lucide="arrow-right" class="w-4 h-4 transform group-hover:translate-x-1 transition-transform"></i>
+              </a>
             </div>
-          </a>
+          </div>
 
           <!-- Card 2: Doula -->
           <a href="doula.html" class="group bg-brand-oliveTint/40 hover:bg-brand-oliveTint/70 border-2 border-brand-olive/30 hover:border-brand-oliveDark rounded-3xl p-6 transition-all duration-300 shadow-soft hover:shadow-warm flex flex-col justify-between relative">

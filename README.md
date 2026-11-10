@@ -27,7 +27,8 @@ Publicado e hospedado gratuitamente na **Vercel** através da integração com o
 - **1. Massoterapia (@monique.massoterapia):**
   - **Locais em Campinas:** [Casa Gê](https://casagecampinas.com.br/) (Rua Hilário Magro Jr, 113 – Bosque) e [Espaço Menezes](https://www.espacomenezes.com.br/) (Jardim Guanabara)
   - **Duração:** Sessões individuais de 60 minutos
-  - **1ª Sessão Especial:** R$ 99 (condição de experimentação para novas clientes)
+  - **1ª Sessão Especial:** R$ 99 (Voucher de R$ 50 OFF na 1ª massagem - De R$ 150 por R$ 99)
+  - **Link do Voucher (WhatsApp):** `https://wa.me/5519993408088?text=Oi%20Monique!%20Vi%20o%20an%C3%BAncio%20e%20gostaria%20de%20resgatar%20meu%20Voucher%20de%20R$%2050%20OFF%20na%20primeira%20massagem.`
   - **Sessão Avulsa Normal:** R$ 150
   - **Pacote Inicial:** 3 sessões por R$ 350 (~R$ 116/sessão • economia imediata)
   - **Pacotes Recorrentes:** 3 sessões por R$ 390 / 5 sessões por R$ 650

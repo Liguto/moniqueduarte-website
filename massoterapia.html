@@ -127,12 +127,19 @@
 
 <body class="bg-brand-cream text-brand-charcoal font-sans antialiased selection:bg-brand-roseSoft/40 selection:text-brand-charcoal">
 
-  <!-- BARRA DE AVISO SUPERIOR COM TELEFONE -->
+  <!-- BARRA DE AVISO SUPERIOR COM TELEFONE & VOUCHER -->
   <div class="bg-brand-olive text-brand-cream text-xs py-2 px-4 transition-colors">
     <div class="max-w-6xl mx-auto flex items-center justify-between gap-2 text-xs">
       <div class="flex items-center gap-2 truncate">
         <i data-lucide="sparkles" class="w-3.5 h-3.5 text-brand-roseSoft shrink-0"></i>
         <span class="truncate">Monique Duarte • Massoterapia em Campinas (Casa Gê & Guanabara)</span>
+        <a href="https://wa.me/5519993408088?text=Oi%20Monique!%20Vi%20o%20an%C3%BAncio%20e%20gostaria%20de%20resgatar%20meu%20Voucher%20de%20R$%2050%20OFF%20na%20primeira%20massagem."
+           target="_blank"
+           rel="noopener noreferrer"
+           class="hidden sm:inline-flex items-center gap-1 bg-brand-terracotta hover:bg-brand-terracottaDark text-white text-[10px] font-bold px-2 py-0.5 rounded-full transition-colors ml-1 shadow-xs shrink-0">
+          <i data-lucide="ticket" class="w-3 h-3"></i>
+          <span>Voucher R$ 50 OFF</span>
+        </a>
       </div>
       <div class="flex items-center gap-3 font-medium shrink-0">
         <a href="https://wa.me/5519993408088" target="_blank" rel="noopener noreferrer" class="hover:text-brand-roseSoft transition-colors flex items-center gap-1.5 font-bold text-white bg-white/10 px-2.5 py-0.5 rounded-full">
@@ -214,9 +221,18 @@
         <div class="grid grid-cols-1 lg:grid-cols-12 gap-10 items-center">
           
           <div class="lg:col-span-7 space-y-5 text-center lg:text-left">
-            <div class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-brand-roseTint border border-brand-roseSoft/40 text-brand-terracottaDark text-xs font-semibold">
-              <i data-lucide="sparkles" class="w-3.5 h-3.5 text-brand-terracotta"></i>
-              <span>Sessões Individuais de 60 Minutos • Campinas/SP</span>
+            <div class="flex flex-wrap items-center justify-center lg:justify-start gap-2">
+              <div class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-brand-roseTint border border-brand-roseSoft/40 text-brand-terracottaDark text-xs font-semibold">
+                <i data-lucide="sparkles" class="w-3.5 h-3.5 text-brand-terracotta"></i>
+                <span>Sessões Individuais de 60 Minutos • Campinas/SP</span>
+              </div>
+              <a href="https://wa.me/5519993408088?text=Oi%20Monique!%20Vi%20o%20an%C3%BAncio%20e%20gostaria%20de%20resgatar%20meu%20Voucher%20de%20R$%2050%20OFF%20na%20primeira%20massagem."
+                 target="_blank"
+                 rel="noopener noreferrer"
+                 class="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-emerald-50 border border-emerald-200 text-emerald-800 text-xs font-bold hover:bg-emerald-100 transition-colors shadow-xs">
+                <i data-lucide="ticket" class="w-3.5 h-3.5 text-emerald-600"></i>
+                <span>Voucher R$ 50 OFF Ativo</span>
+              </a>
             </div>
 
             <h1 class="font-serif text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-medium tracking-tight text-brand-charcoal leading-[1.15]">
@@ -258,11 +274,12 @@
 
             <!-- Botões de Ação -->
             <div class="pt-3 flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-3.5">
-              <a href="https://wa.me/5519993408088?text=Oi!%20Vi%20o%20site%20da%20massoterapia%20e%20gostaria%20de%20agendar%20minha%20primeira%20sess%C3%A3o%20por%20R%2499."
+              <a href="https://wa.me/5519993408088?text=Oi%20Monique!%20Vi%20o%20an%C3%BAncio%20e%20gostaria%20de%20resgatar%20meu%20Voucher%20de%20R$%2050%20OFF%20na%20primeira%20massagem."
                  target="_blank"
                  rel="noopener noreferrer"
-                 class="w-full sm:w-auto inline-flex items-center justify-center gap-2 bg-[#25D366] hover:bg-[#20bd5a] text-white font-bold px-7 py-3.5 rounded-full shadow-sm hover:shadow-md transition-all transform hover:-translate-y-0.5 active:scale-95 text-sm sm:text-base">
-                <span>Agendar 1ª Sessão (R$ 99)</span>
+                 class="w-full sm:w-auto inline-flex items-center justify-center gap-2.5 bg-[#25D366] hover:bg-[#20bd5a] text-white font-bold px-7 py-3.5 rounded-full shadow-warm hover:shadow-float transition-all transform hover:-translate-y-0.5 active:scale-95 text-sm sm:text-base group">
+                <i data-lucide="ticket" class="w-5 h-5 transition-transform group-hover:rotate-12"></i>
+                <span>Resgatar Voucher R$ 50 OFF</span>
               </a>
 
               <a href="#valores" class="w-full sm:w-auto inline-flex items-center justify-center gap-2 bg-white hover:bg-brand-sand text-brand-charcoal border border-brand-nude font-semibold px-6 py-3.5 rounded-full shadow-xs text-sm sm:text-base">
@@ -297,7 +314,7 @@
       </div>
     </section>
 
-    <!-- BANNER DE OFERTA ESPECIAL 1ª SESSÃO R$ 99 -->
+    <!-- BANNER DE OFERTA ESPECIAL 1ª SESSÃO R$ 99 / VOUCHER -->
     <section class="py-12 bg-white border-b border-brand-nude/60">
       <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="bg-gradient-to-r from-brand-roseTint/80 via-brand-cream to-brand-oliveTint/60 border-2 border-brand-terracotta/40 rounded-3xl p-6 sm:p-8 shadow-warm">
@@ -305,14 +322,14 @@
             
             <div class="lg:col-span-8 space-y-2">
               <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-brand-terracotta text-white text-[11px] font-bold uppercase tracking-wider">
-                <i data-lucide="sparkles" class="w-3.5 h-3.5"></i>
-                <span>Condição de Boas-Vindas para Nova Cliente</span>
+                <i data-lucide="ticket" class="w-3.5 h-3.5"></i>
+                <span>Voucher Exclusivo de Boas-Vindas • R$ 50 OFF</span>
               </div>
               <h2 class="font-serif text-2xl sm:text-3xl font-semibold text-brand-charcoal">
-                Experimente a sua primeira sessão de 60 minutos por apenas R$ 99
+                Resgate seu Voucher de R$ 50 OFF na Primeira Massagem
               </h2>
               <p class="text-xs sm:text-sm text-brand-graphite leading-relaxed">
-                Um momento só seu para conhecer o toque da Monique, relaxar da rotina pesada e desatar nós musculares. Atendimento individual com hora marcada na Casa Gê ou Espaço Menezes.
+                De R$ 150 por apenas R$ 99 na sua primeira sessão de 60 minutos. Um momento só seu para conhecer o toque da Monique, relaxar da rotina pesada e desatar nós musculares. Atendimento individual com hora marcada na Casa Gê ou Espaço Menezes.
               </p>
             </div>
 
@@ -320,13 +337,14 @@
               <div class="text-center lg:text-right">
                 <span class="text-xs text-brand-muted line-through block">De R$ 150</span>
                 <span class="text-3xl sm:text-4xl font-serif font-bold text-brand-terracotta">R$ 99</span>
-                <span class="text-[11px] text-brand-graphite block font-medium">Sessão completa de 60 min</span>
+                <span class="text-[11px] text-brand-graphite block font-medium">Com Voucher de R$ 50 OFF</span>
               </div>
-              <a href="https://wa.me/5519993408088?text=Oi!%20Vi%20a%20massoterapia%20no%20site%20e%20gostaria%20de%20saber%20mais%20sobre%20a%20primeira%20sess%C3%A3o%20de%20R%2499."
+              <a href="https://wa.me/5519993408088?text=Oi%20Monique!%20Vi%20o%20an%C3%BAncio%20e%20gostaria%20de%20resgatar%20meu%20Voucher%20de%20R$%2050%20OFF%20na%20primeira%20massagem."
                  target="_blank"
                  rel="noopener noreferrer"
-                 class="w-full sm:w-auto inline-flex items-center justify-center gap-2 bg-[#25D366] hover:bg-[#20bd5a] text-white text-xs sm:text-sm font-bold px-6 py-3 rounded-full shadow-sm transition-all">
-                <span>Agendar no WhatsApp</span>
+                 class="w-full sm:w-auto inline-flex items-center justify-center gap-2 bg-[#25D366] hover:bg-[#20bd5a] text-white text-xs sm:text-sm font-bold px-6 py-3.5 rounded-full shadow-sm hover:shadow-md transition-all active:scale-95 group">
+                <i data-lucide="ticket" class="w-4 h-4 transition-transform group-hover:rotate-12"></i>
+                <span>Resgatar Voucher no WhatsApp</span>
               </a>
             </div>
 
@@ -429,22 +447,23 @@
 
         <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mb-12">
           
-          <!-- Card 1: 1ª Sessão -->
-          <div class="bg-brand-cream p-7 rounded-3xl border border-brand-nude shadow-xs flex flex-col justify-between">
+          <!-- Card 1: 1ª Sessão com Voucher -->
+          <div class="bg-brand-cream p-7 rounded-3xl border-2 border-brand-terracotta/40 shadow-xs flex flex-col justify-between">
             <div>
-              <span class="text-[11px] uppercase tracking-wider font-bold text-brand-terracotta">Boas-Vindas</span>
+              <span class="text-[11px] uppercase tracking-wider font-bold text-brand-terracotta">Voucher Boas-Vindas</span>
               <h3 class="font-serif text-2xl font-semibold text-brand-charcoal mt-1">Primeira Sessão</h3>
-              <p class="text-xs text-brand-muted mt-1">Sessão individual de 60 minutos para novas clientes.</p>
+              <p class="text-xs text-brand-muted mt-1">Sessão individual de 60 minutos para novas clientes com voucher.</p>
               <div class="mt-5 pt-5 border-t border-brand-nude/70">
-                <span class="text-3xl font-serif font-bold text-brand-charcoal">R$ 99</span>
-                <span class="text-xs text-brand-muted block">Experimentação (Economia de R$ 51)</span>
+                <span class="text-3xl font-serif font-bold text-brand-terracotta">R$ 99</span>
+                <span class="text-xs text-brand-muted block">Com Voucher de R$ 50 OFF (De R$ 150)</span>
               </div>
             </div>
-            <a href="https://wa.me/5519993408088?text=Oi!%20Gostaria%20de%20agendar%20minha%20primeira%20sess%C3%A3o%20de%20R%2499."
+            <a href="https://wa.me/5519993408088?text=Oi%20Monique!%20Vi%20o%20an%C3%BAncio%20e%20gostaria%20de%20resgatar%20meu%20Voucher%20de%20R$%2050%20OFF%20na%20primeira%20massagem."
                target="_blank"
                rel="noopener noreferrer"
-               class="mt-6 w-full text-center bg-white hover:bg-brand-sand text-brand-charcoal border border-brand-nude text-xs font-bold py-3 px-4 rounded-xl transition-colors">
-              Agendar 1ª Sessão
+               class="mt-6 w-full text-center bg-[#25D366] hover:bg-[#20bd5a] text-white text-xs font-bold py-3 px-4 rounded-xl transition-all shadow-xs inline-flex items-center justify-center gap-2 group active:scale-95">
+              <i data-lucide="ticket" class="w-4 h-4 transition-transform group-hover:rotate-12"></i>
+              <span>Resgatar Voucher R$ 50 OFF</span>
             </a>
           </div>
 
@@ -561,11 +580,12 @@
         </div>
 
         <div class="mt-12 text-center">
-          <a href="https://wa.me/5519993408088?text=Oi!%20Vi%20os%20feedbacks%20no%20site%20e%20gostaria%20de%20agendar%20minha%20primeira%20sess%C3%A3o%20de%20R%2499."
+          <a href="https://wa.me/5519993408088?text=Oi%20Monique!%20Vi%20o%20an%C3%BAncio%20e%20gostaria%20de%20resgatar%20meu%20Voucher%20de%20R$%2050%20OFF%20na%20primeira%20massagem."
              target="_blank"
              rel="noopener noreferrer"
-             class="inline-flex items-center gap-2 bg-[#25D366] hover:bg-[#20bd5a] text-white font-bold px-7 py-3.5 rounded-full shadow-sm hover:shadow-md transition-all text-sm">
-            <span>Quero Sentir Esse Alívio • Agendar no WhatsApp</span>
+             class="inline-flex items-center gap-2 bg-[#25D366] hover:bg-[#20bd5a] text-white font-bold px-7 py-3.5 rounded-full shadow-warm hover:shadow-float transition-all text-sm group active:scale-95">
+            <i data-lucide="ticket" class="w-4 h-4 transition-transform group-hover:rotate-12"></i>
+            <span>Resgatar Voucher R$ 50 OFF no WhatsApp</span>
           </a>
         </div>
 
@@ -660,12 +680,17 @@
     </div>
   </footer>
 
-  <!-- BOTÃO FLUTUANTE DO WHATSAPP -->
+  <!-- BOTÃO FLUTUANTE DO WHATSAPP COM VOUCHER -->
   <div class="fixed bottom-6 right-6 z-50 flex items-center group">
-    <div class="hidden sm:block mr-3 bg-white text-brand-charcoal text-xs font-semibold px-3 py-1.5 rounded-xl shadow-lg border border-brand-nude opacity-0 group-hover:opacity-100 transition-opacity pointer-events-none whitespace-nowrap">
-      Fale com a Monique no WhatsApp
-    </div>
-    <a href="https://wa.me/5519993408088?text=Oi!%20Gostaria%20de%20agendar%20uma%20sess%C3%A3o%20de%20massoterapia." target="_blank" rel="noopener noreferrer" aria-label="WhatsApp" class="relative flex items-center justify-center w-14 h-14 bg-emerald-600 hover:bg-emerald-700 text-white rounded-full shadow-warm transition-transform duration-300 transform hover:scale-110">
+    <a href="https://wa.me/5519993408088?text=Oi%20Monique!%20Vi%20o%20an%C3%BAncio%20e%20gostaria%20de%20resgatar%20meu%20Voucher%20de%20R$%2050%20OFF%20na%20primeira%20massagem."
+       target="_blank"
+       rel="noopener noreferrer"
+       class="hidden sm:flex items-center gap-2 mr-3 bg-white hover:bg-brand-sand text-brand-charcoal text-xs font-bold py-2 px-3.5 rounded-2xl shadow-float border border-brand-terracotta/30 transition-all hover:scale-105 active:scale-95 group/pill">
+      <span class="w-2 h-2 rounded-full bg-emerald-500 animate-pulse"></span>
+      <i data-lucide="ticket" class="w-3.5 h-3.5 text-brand-terracotta transition-transform group-hover/pill:rotate-12"></i>
+      <span>Resgatar Voucher R$ 50 OFF</span>
+    </a>
+    <a href="https://wa.me/5519993408088?text=Oi%20Monique!%20Vi%20o%20an%C3%BAncio%20e%20gostaria%20de%20resgatar%20meu%20Voucher%20de%20R$%2050%20OFF%20na%20primeira%20massagem." target="_blank" rel="noopener noreferrer" aria-label="WhatsApp - Resgatar Voucher R$ 50 OFF" class="relative flex items-center justify-center w-14 h-14 bg-emerald-600 hover:bg-emerald-700 text-white rounded-full shadow-warm transition-transform duration-300 transform hover:scale-110">
       <span class="absolute inline-flex h-full w-full rounded-full bg-emerald-400 opacity-30 animate-ping"></span>
       <svg class="w-7 h-7 fill-current relative z-10" viewBox="0 0 24 24"><path d="M17.472 14.382c-.301-.15-1.78-.878-2.056-.979-.276-.101-.476-.15-.677.15-.2.301-.777.979-.953 1.179-.175.2-.351.226-.652.075s-1.272-.469-2.423-1.496c-.896-.799-1.501-1.787-1.677-2.088-.175-.301-.019-.464.132-.614.136-.135.301-.351.451-.527.15-.175.2-.301.301-.501.101-.2.05-.376-.025-.526-.075-.15-.677-1.631-.928-2.233-.244-.585-.493-.506-.677-.515h-.577c-.2 0-.527.075-.802.376s-1.053 1.028-1.053 2.509 1.078 2.91 1.229 3.111c.15.201 2.121 3.239 5.138 4.542.718.311 1.278.497 1.716.636.721.229 1.377.197 1.896.119.579-.088 1.78-.727 2.031-1.43.251-.702.251-1.304.175-1.43-.075-.126-.275-.201-.576-.351zM12.04 2c-5.523 0-10 4.477-10 10 0 1.76.459 3.414 1.264 4.861L2 22l5.289-1.267C8.7 21.547 10.315 22 12.04 22c5.523 0 10-4.477 10-10s-4.477-10-10-10zm0 18.25c-1.558 0-3.008-.43-4.254-1.18l-.305-.185-3.14.752.766-3.061-.202-.321A8.204 8.204 0 013.79 12c0-4.548 3.702-8.25 8.25-8.25 4.548 0 8.25 3.702 8.25 8.25 0 4.548-3.702 8.25-8.25 8.25z"/></svg>
     </a>
