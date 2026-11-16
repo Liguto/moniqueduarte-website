@@ -25,6 +25,7 @@ Publicado e hospedado gratuitamente na **Vercel** através da integração com o
 ## 🌸 Os 3 Serviços no Site
 
 - **1. Massoterapia (@monique.massoterapia):**
+  - **Público:** Atendimento estritamente exclusivo para mulheres (público feminino) em ambos os consultórios.
   - **Locais em Campinas:** [Casa Gê](https://casagecampinas.com.br/) (Rua Hilário Magro Jr, 113 – Bosque) e [Espaço Menezes](https://www.espacomenezes.com.br/) (Jardim Guanabara)
   - **Duração:** Sessões individuais de 60 minutos
   - **1ª Sessão Especial:** R$ 99 (Voucher de R$ 50 OFF na 1ª massagem - De R$ 150 por R$ 99)
