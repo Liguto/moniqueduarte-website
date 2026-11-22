@@ -11,6 +11,22 @@
     gtag('config', 'AW-18531667996');
   </script>
 
+  <!-- Google Ads Conversion Tracking (WhatsApp Clicks) -->
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      var whatsappLinks = document.querySelectorAll('a[href*="wa.me"], a[href*="whatsapp.com"]');
+      whatsappLinks.forEach(function(link) {
+        link.addEventListener('click', function() {
+          if (typeof gtag === 'function') {
+            gtag('event', 'conversion', {
+              'send_to': 'AW-18531667996/tX4KCNP7g6YdEJygy4RF'
+            });
+          }
+        });
+      });
+    });
+  </script>
+
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Massoterapia em Campinas | Monique Duarte • Exclusivo para Mulheres (1ª Sessão R$ 99)</title>
