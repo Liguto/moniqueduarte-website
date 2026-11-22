@@ -11,8 +11,23 @@
     gtag('config', 'AW-18531667996');
   </script>
 
-  <!-- Google Ads Conversion Tracking (WhatsApp Clicks) -->
+  <!-- Event snippet for Submit lead form conversion page (WhatsApp Clicks) -->
   <script>
+    function gtag_report_conversion(url) {
+      var callback = function () {
+        if (typeof(url) != 'undefined') {
+          window.location = url;
+        }
+      };
+      if (typeof gtag === 'function') {
+        gtag('event', 'conversion', {
+            'send_to': 'AW-18531667996/tX4KCNP7g6YdEJygy4RF',
+            'event_callback': callback
+        });
+      }
+      return false;
+    }
+
     document.addEventListener('DOMContentLoaded', function() {
       var whatsappLinks = document.querySelectorAll('a[href*="wa.me"], a[href*="whatsapp.com"]');
       whatsappLinks.forEach(function(link) {
